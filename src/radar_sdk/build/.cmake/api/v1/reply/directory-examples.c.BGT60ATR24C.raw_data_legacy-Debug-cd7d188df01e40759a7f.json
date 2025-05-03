@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/c/BGT60ATR24C/raw_data_legacy",
+		"source" : "examples/c/BGT60ATR24C/raw_data_legacy"
+	}
+}

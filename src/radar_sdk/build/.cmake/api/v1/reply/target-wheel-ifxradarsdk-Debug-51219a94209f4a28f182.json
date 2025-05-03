@@ -1,0 +1,317 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_wheel",
+			"add_custom_command",
+			"set_property"
+		],
+		"files" : 
+		[
+			"external/strata/cmake/wheels.cmake",
+			"sdk/py/wrapper_radarsdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "strata_shared::@af46ec4be38e64d587b3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "lib_avian::@6477fcbee9b50dccd2cd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sdk_avian::@e94c346cfe007d3428e9"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sdk_base::@32d75b861c5914c2942d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "sdk_cw::@594fdc0c7ea44d5df57a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "sdk_fmcw::@247edf93ccc28e61a872"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "sdk_ltr11::@d1b970a29ffa4392e4f5"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "sdk_mimose::@5644977a7160b6f3e84a"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "sdk_radar_device_common::@1bfef58ded37712d0285"
+		}
+	],
+	"id" : "wheel-ifxradarsdk::@29dcbd4a42147fd2ca42",
+	"name" : "wheel-ifxradarsdk",
+	"paths" : 
+	{
+		"build" : "sdk/py/wrapper_radarsdk",
+		"source" : "sdk/py/wrapper_radarsdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				24
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/pyproject.toml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxAvian/Avian.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxAvian/AvianTypes.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxAvian/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/common/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/common/base_types.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/common/cdll_helper.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/common/common_types.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/common/exceptions.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/common/sdk_base.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/cw/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/cw/cw.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/cw/types.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/fmcw/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/fmcw/fmcw.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/fmcw/types.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/ltr11/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/ltr11/ltr11.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/ltr11/types.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/mimose/__init__.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/mimose/mimose.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "sdk/py/wrapper_radarsdk/src/ifxradarsdk/mimose/types.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "sdk/py/wrapper_radarsdk/pyproject.toml.in",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"path" : "sdk/py/generate_exceptions.py",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

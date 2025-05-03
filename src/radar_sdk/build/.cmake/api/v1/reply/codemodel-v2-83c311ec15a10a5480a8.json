@@ -1,0 +1,1695 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6,
+						18,
+						32,
+						55
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "3rd_party/libs",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-3rd_party.libs-Debug-3c925c4af221154b3de6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rd_party/libs"
+				},
+				{
+					"build" : "3rd_party/libs/argparse",
+					"jsonFile" : "directory-3rd_party.libs.argparse-Debug-576afeb912d88186d98f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rd_party/libs/argparse",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "3rd_party/libs/bossa",
+					"jsonFile" : "directory-3rd_party.libs.bossa-Debug-9203def361fbd2bca0e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rd_party/libs/bossa",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "3rd_party/libs/muFFT",
+					"jsonFile" : "directory-3rd_party.libs.muFFT-Debug-7f82ab2046cf7b1aa4a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rd_party/libs/muFFT",
+					"targetIndexes" : 
+					[
+						52,
+						53,
+						54,
+						55
+					]
+				},
+				{
+					"build" : "3rd_party/libs/nlohmann",
+					"jsonFile" : "directory-3rd_party.libs.nlohmann-Debug-7340e85e4aabf422b8bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3rd_party/libs/nlohmann"
+				},
+				{
+					"build" : "external",
+					"childIndexes" : 
+					[
+						7,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external-Debug-8482bb5b6989bf536f1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external"
+				},
+				{
+					"build" : "external/strata",
+					"childIndexes" : 
+					[
+						8,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.strata-Debug-e155b994abb5f245fa4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 2,
+					"source" : "external/strata",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "external/strata/contrib",
+					"childIndexes" : 
+					[
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.strata.contrib-Debug-b7a9d8d6f59609161a24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "external/strata/contrib",
+					"targetIndexes" : 
+					[
+						44,
+						58
+					]
+				},
+				{
+					"build" : "external/strata/contrib/pugixml",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.strata.contrib.pugixml-Debug-5e8a70f4a5fe1c4ad817.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 3,
+					"source" : "external/strata/contrib/pugixml",
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						57
+					]
+				},
+				{
+					"build" : "external/strata/library",
+					"childIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.strata.library-Debug-c060eecc18d068b7a11b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 2,
+					"source" : "external/strata/library",
+					"targetIndexes" : 
+					[
+						71,
+						72,
+						73,
+						74,
+						75
+					]
+				},
+				{
+					"build" : "external/strata/library/common",
+					"jsonFile" : "directory-external.strata.library.common-Debug-e125eb43dcb348e642b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 2,
+					"source" : "external/strata/library/common",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "external/strata/library/components",
+					"jsonFile" : "directory-external.strata.library.components-Debug-9dd0c32bc2fd5885978b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 2,
+					"source" : "external/strata/library/components",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "external/strata/library/modules",
+					"jsonFile" : "directory-external.strata.library.modules-Debug-22dfcd2822e20bb20e1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 2,
+					"source" : "external/strata/library/modules",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "external/strata/library/platform",
+					"jsonFile" : "directory-external.strata.library.platform-Debug-1a4bb1d4efbd4b2b4606.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 2,
+					"source" : "external/strata/library/platform",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "external/strata/library/remote",
+					"jsonFile" : "directory-external.strata.library.remote-Debug-d4fed56d99748673e105.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 2,
+					"source" : "external/strata/library/remote",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "external/strata/library/universal",
+					"jsonFile" : "directory-external.strata.library.universal-Debug-f89cf475bfa439822660.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 2,
+					"source" : "external/strata/library/universal",
+					"targetIndexes" : 
+					[
+						76
+					]
+				},
+				{
+					"build" : "external/lib_avian",
+					"jsonFile" : "directory-external.lib_avian-Debug-cb0ff4a9ec7b22e720b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 4,
+					"source" : "external/lib_avian",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "sdk",
+					"childIndexes" : 
+					[
+						19,
+						30
+					],
+					"jsonFile" : "directory-sdk-Debug-2f50438fca1011c2f050.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk"
+				},
+				{
+					"build" : "sdk/c",
+					"childIndexes" : 
+					[
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"jsonFile" : "directory-sdk.c-Debug-1e64bbf8ef9a5814f644.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "sdk/c"
+				},
+				{
+					"build" : "sdk/c/ifxAlgo",
+					"jsonFile" : "directory-sdk.c.ifxAlgo-Debug-e7e386534600f8d62d07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxAlgo",
+					"targetIndexes" : 
+					[
+						61
+					]
+				},
+				{
+					"build" : "sdk/c/ifxAvian",
+					"jsonFile" : "directory-sdk.c.ifxAvian-Debug-4142aa1f7f4034cfcd5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxAvian",
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"build" : "sdk/c/ifxBase",
+					"jsonFile" : "directory-sdk.c.ifxBase-Debug-92a48cabcc590e54142a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxBase",
+					"targetIndexes" : 
+					[
+						63
+					]
+				},
+				{
+					"build" : "sdk/c/ifxComPort",
+					"jsonFile" : "directory-sdk.c.ifxComPort-Debug-c70a0eb14579fb5dc572.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxComPort",
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"build" : "sdk/c/ifxCw",
+					"jsonFile" : "directory-sdk.c.ifxCw-Debug-75340015067f648a0a72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxCw",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "sdk/c/ifxFmcw",
+					"jsonFile" : "directory-sdk.c.ifxFmcw-Debug-f166c4ef7692a6569c82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxFmcw",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "sdk/c/ifxLtr11",
+					"jsonFile" : "directory-sdk.c.ifxLtr11-Debug-7b585332ffdf8979e2b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxLtr11",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "sdk/c/ifxMimose",
+					"jsonFile" : "directory-sdk.c.ifxMimose-Debug-b59029b056c1513744c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxMimose",
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"build" : "sdk/c/ifxRadar",
+					"jsonFile" : "directory-sdk.c.ifxRadar-Debug-025106a8cbc90be9d189.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxRadar",
+					"targetIndexes" : 
+					[
+						69
+					]
+				},
+				{
+					"build" : "sdk/c/ifxRadarDeviceCommon",
+					"jsonFile" : "directory-sdk.c.ifxRadarDeviceCommon-Debug-9cdc71298eb95aa07a8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "sdk/c/ifxRadarDeviceCommon",
+					"targetIndexes" : 
+					[
+						70
+					]
+				},
+				{
+					"build" : "sdk/py",
+					"childIndexes" : 
+					[
+						31
+					],
+					"jsonFile" : "directory-sdk.py-Debug-241893e78492bf0a435d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "sdk/py"
+				},
+				{
+					"build" : "sdk/py/wrapper_radarsdk",
+					"jsonFile" : "directory-sdk.py.wrapper_radarsdk-Debug-577a407db23adb765caf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 0,
+					"source" : "sdk/py/wrapper_radarsdk",
+					"targetIndexes" : 
+					[
+						77
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						33
+					],
+					"jsonFile" : "directory-examples-Debug-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/c",
+					"childIndexes" : 
+					[
+						34,
+						36,
+						40,
+						43,
+						50,
+						54
+					],
+					"jsonFile" : "directory-examples.c-Debug-92c9c3eb892d8f6f783c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "examples/c"
+				},
+				{
+					"build" : "examples/c/BGT24ATR22",
+					"childIndexes" : 
+					[
+						35
+					],
+					"jsonFile" : "directory-examples.c.BGT24ATR22-Debug-32c273a4a906b994cb09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT24ATR22"
+				},
+				{
+					"build" : "examples/c/BGT24ATR22/raw_data",
+					"jsonFile" : "directory-examples.c.BGT24ATR22.raw_data-Debug-be6a88a1f06163725b44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 34,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT24ATR22/raw_data",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "examples/c/BGT60ATR24C",
+					"childIndexes" : 
+					[
+						37,
+						38,
+						39
+					],
+					"jsonFile" : "directory-examples.c.BGT60ATR24C-Debug-88c202dff05f548c1a23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60ATR24C"
+				},
+				{
+					"build" : "examples/c/BGT60ATR24C/continuous_wave",
+					"jsonFile" : "directory-examples.c.BGT60ATR24C.continuous_wave-Debug-d0c658d62d55a9ece6f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 36,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60ATR24C/continuous_wave",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "examples/c/BGT60ATR24C/raw_data",
+					"jsonFile" : "directory-examples.c.BGT60ATR24C.raw_data-Debug-d60f156401163c6f9d4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 36,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60ATR24C/raw_data",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "examples/c/BGT60ATR24C/raw_data_legacy",
+					"jsonFile" : "directory-examples.c.BGT60ATR24C.raw_data_legacy-Debug-cd7d188df01e40759a7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 36,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60ATR24C/raw_data_legacy",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "examples/c/BGT60LTR11AIP",
+					"childIndexes" : 
+					[
+						41,
+						42
+					],
+					"jsonFile" : "directory-examples.c.BGT60LTR11AIP-Debug-7a4ae80bf4ef6c1cb58b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60LTR11AIP"
+				},
+				{
+					"build" : "examples/c/BGT60LTR11AIP/advanced_motion_sensing",
+					"jsonFile" : "directory-examples.c.BGT60LTR11AIP.advanced_motion_sensing-Debug-3bfc91a599f0fa6ec5af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 40,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60LTR11AIP/advanced_motion_sensing",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "examples/c/BGT60LTR11AIP/raw_data",
+					"jsonFile" : "directory-examples.c.BGT60LTR11AIP.raw_data-Debug-e8ef79a5fd1beb95fbf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 40,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60LTR11AIP/raw_data",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "examples/c/BGT60TR13C",
+					"childIndexes" : 
+					[
+						44,
+						45,
+						46,
+						47,
+						48,
+						49
+					],
+					"jsonFile" : "directory-examples.c.BGT60TR13C-Debug-f37102019d7f630f8c35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60TR13C"
+				},
+				{
+					"build" : "examples/c/BGT60TR13C/continuous_wave",
+					"jsonFile" : "directory-examples.c.BGT60TR13C.continuous_wave-Debug-2fc33719f1a35aa11532.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60TR13C/continuous_wave",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "examples/c/BGT60TR13C/motion_angle",
+					"jsonFile" : "directory-examples.c.BGT60TR13C.motion_angle-Debug-e587156036b0638a081e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60TR13C/motion_angle",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "examples/c/BGT60TR13C/presence_detection",
+					"jsonFile" : "directory-examples.c.BGT60TR13C.presence_detection-Debug-3146bd69a52e0eed0230.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60TR13C/presence_detection",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "examples/c/BGT60TR13C/range_doppler_map",
+					"jsonFile" : "directory-examples.c.BGT60TR13C.range_doppler_map-Debug-125807eaf8b4aef70146.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60TR13C/range_doppler_map",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "examples/c/BGT60TR13C/raw_data",
+					"jsonFile" : "directory-examples.c.BGT60TR13C.raw_data-Debug-235d92730b9f7249e8ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60TR13C/raw_data",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "examples/c/BGT60TR13C/segmentation",
+					"jsonFile" : "directory-examples.c.BGT60TR13C.segmentation-Debug-955d3e4cb7d4619464e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60TR13C/segmentation",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "examples/c/BGT60UTR11AIP",
+					"childIndexes" : 
+					[
+						51,
+						52,
+						53
+					],
+					"jsonFile" : "directory-examples.c.BGT60UTR11AIP-Debug-2faa34846c059f9ee553.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60UTR11AIP"
+				},
+				{
+					"build" : "examples/c/BGT60UTR11AIP/continuous_wave",
+					"jsonFile" : "directory-examples.c.BGT60UTR11AIP.continuous_wave-Debug-ade28f8a6897250a10d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60UTR11AIP/continuous_wave",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "examples/c/BGT60UTR11AIP/presence_detection",
+					"jsonFile" : "directory-examples.c.BGT60UTR11AIP.presence_detection-Debug-a72e88be99213f948dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60UTR11AIP/presence_detection",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "examples/c/BGT60UTR11AIP/raw_data",
+					"jsonFile" : "directory-examples.c.BGT60UTR11AIP.raw_data-Debug-41095b3ba2d22b7c3d33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 0,
+					"source" : "examples/c/BGT60UTR11AIP/raw_data",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "examples/c/common",
+					"jsonFile" : "directory-examples.c.common-Debug-174a0dd18c64f099cd7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "examples/c/common",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "tools",
+					"jsonFile" : "directory-tools-Debug-f9645b0170a45a75eff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55
+					],
+					"name" : "rdk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						45,
+						46,
+						49,
+						59,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						77
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "muFFT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						52,
+						53,
+						54,
+						55
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "Strata",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						43,
+						44,
+						47,
+						48,
+						51,
+						56,
+						58,
+						60,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "pugixml",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "lib_avian",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						50
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 35,
+					"id" : "BGT24ATR22_raw_data::@d99aab98c8d5548cd554",
+					"jsonFile" : "target-BGT24ATR22_raw_data-Debug-fd41f98463ff965c113f.json",
+					"name" : "BGT24ATR22_raw_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "BGT60ATR24C_continuous_wave::@b394e765763772bdeebf",
+					"jsonFile" : "target-BGT60ATR24C_continuous_wave-Debug-f4657e3872e795f253a5.json",
+					"name" : "BGT60ATR24C_continuous_wave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "BGT60ATR24C_raw_data::@8dd6324a4163491a19b9",
+					"jsonFile" : "target-BGT60ATR24C_raw_data-Debug-3948b0b0002a829d97a8.json",
+					"name" : "BGT60ATR24C_raw_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "BGT60ATR24C_raw_data_fmcw::@a01a54f2b11820070eb2",
+					"jsonFile" : "target-BGT60ATR24C_raw_data_fmcw-Debug-cf6d7f1de07ae2b67c21.json",
+					"name" : "BGT60ATR24C_raw_data_fmcw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "BGT60LTR11AIP_advanced_motion_sensing::@b6520fa6b566175baa4b",
+					"jsonFile" : "target-BGT60LTR11AIP_advanced_motion_sensing-Debug-4de6e6d7968914d766b1.json",
+					"name" : "BGT60LTR11AIP_advanced_motion_sensing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "BGT60LTR11AIP_raw_data::@0fa6a2f1a104d1010691",
+					"jsonFile" : "target-BGT60LTR11AIP_raw_data-Debug-3be8bc1ef7af24608820.json",
+					"name" : "BGT60LTR11AIP_raw_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "BGT60TR13C_continuous_wave::@5df483f50efbb9bae9e9",
+					"jsonFile" : "target-BGT60TR13C_continuous_wave-Debug-1d69a35a0025eddbbb9f.json",
+					"name" : "BGT60TR13C_continuous_wave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "BGT60TR13C_motion_angle::@c8cf55d27f37c0bbde10",
+					"jsonFile" : "target-BGT60TR13C_motion_angle-Debug-f01b9e868c21aebdd1a7.json",
+					"name" : "BGT60TR13C_motion_angle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "BGT60TR13C_presence_detection::@e98202a5f0a84a774a79",
+					"jsonFile" : "target-BGT60TR13C_presence_detection-Debug-6f53ed7c73676bac9f57.json",
+					"name" : "BGT60TR13C_presence_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "BGT60TR13C_range_doppler_map::@f0b4a6d4e4177bcfe4fd",
+					"jsonFile" : "target-BGT60TR13C_range_doppler_map-Debug-b951428325f53f9dc4e0.json",
+					"name" : "BGT60TR13C_range_doppler_map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "BGT60TR13C_raw_data_fmcw::@6169cef08d97bde779e4",
+					"jsonFile" : "target-BGT60TR13C_raw_data_fmcw-Debug-7ed4f172de4204a2c3b8.json",
+					"name" : "BGT60TR13C_raw_data_fmcw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "BGT60TR13C_segmentation::@f00ca026f5184e890703",
+					"jsonFile" : "target-BGT60TR13C_segmentation-Debug-b2289d0e4753ce61fb23.json",
+					"name" : "BGT60TR13C_segmentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "BGT60UTR11AIP_continuous_wave::@d355d312b6071b8a21aa",
+					"jsonFile" : "target-BGT60UTR11AIP_continuous_wave-Debug-afb159b8d2f02081e33d.json",
+					"name" : "BGT60UTR11AIP_continuous_wave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "BGT60UTR11AIP_presence_detection::@db5dc73001333d4a0182",
+					"jsonFile" : "target-BGT60UTR11AIP_presence_detection-Debug-5577e03b6a839b4566ff.json",
+					"name" : "BGT60UTR11AIP_presence_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "BGT60UTR11AIP_raw_data_fmcw::@dcaa543112e3d06d9d4b",
+					"jsonFile" : "target-BGT60UTR11AIP_raw_data_fmcw-Debug-8fb0ab2f5eab19513db8.json",
+					"name" : "BGT60UTR11AIP_raw_data_fmcw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Continuous::@16e3eca51e18ac322646",
+					"jsonFile" : "target-Continuous-Debug-389cdbb1e75d7e792ff6.json",
+					"name" : "Continuous",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousBuild::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousBuild-Debug-ac97590049cc12830939.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousConfigure::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousConfigure-Debug-f017d57dbdac6e40b2cd.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousCoverage::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousCoverage-Debug-408c3f7ec051a47acced.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousMemCheck::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-6267c50ec7bf68d0da43.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousStart::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousStart-Debug-bf85f6791b71cb11c656.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousSubmit::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousSubmit-Debug-1d4640dbb89742e1e484.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousTest::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousTest-Debug-9c0bc020b9f3887e42ee.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ContinuousUpdate::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ContinuousUpdate-Debug-984d1516f6e79c6a4860.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Experimental::@16e3eca51e18ac322646",
+					"jsonFile" : "target-Experimental-Debug-e6cc1596933c190cc0ed.json",
+					"name" : "Experimental",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalBuild::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalBuild-Debug-6602336b038f3cbb5f5c.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalConfigure::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-3c2530018dab6c04a9a6.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalCoverage::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-5e4173745478054ebf2f.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalMemCheck::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-504255b619a0cb7e646f.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalStart::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalStart-Debug-85edaafcbb29c30658cf.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalSubmit::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-e0cc68e839a748747b4c.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalTest::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalTest-Debug-25a382290db329406754.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ExperimentalUpdate::@16e3eca51e18ac322646",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-3c8c180fca52891a7895.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Nightly::@16e3eca51e18ac322646",
+					"jsonFile" : "target-Nightly-Debug-d8e093487c29333a7e73.json",
+					"name" : "Nightly",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyBuild::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyBuild-Debug-392d8871670c95e6f861.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyConfigure::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyConfigure-Debug-cda1d9830a473cbe7b0d.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyCoverage::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyCoverage-Debug-b3d0fa78594bb06c47cc.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyMemCheck::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyMemCheck-Debug-6b3df1f50c8e4f9d1ee2.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyMemoryCheck::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-b2ab70f2798f8c6826db.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyStart::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyStart-Debug-3b0fcec34c0db49cf327.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlySubmit::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlySubmit-Debug-5ea79f95f358cb268d0b.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyTest::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyTest-Debug-fd108ab0701540b08b34.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "NightlyUpdate::@16e3eca51e18ac322646",
+					"jsonFile" : "target-NightlyUpdate-Debug-386a55611c0e01fae075.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Strata::@d80aab7b1f483cc929cd",
+					"jsonFile" : "target-Strata-Debug-d297404fa71ab780463d.json",
+					"name" : "Strata",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "_contrib::@20b99dd78acade63dbb1",
+					"jsonFile" : "target-_contrib-Debug-f6aaff046b79f90e5d83.json",
+					"name" : "_contrib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argparse::@1e30bf2a4f48f3010d8e",
+					"jsonFile" : "target-argparse-Debug-fe983413891779123067.json",
+					"name" : "argparse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bossa::@7290d5b0abfc38fd8387",
+					"jsonFile" : "target-bossa-Debug-d8da1f38330ad4666015.json",
+					"name" : "bossa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "common::@185e4708e1de856dc322",
+					"jsonFile" : "target-common-Debug-55a2807c60ea47f7808d.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "components::@5376f3487d70facbc5fe",
+					"jsonFile" : "target-components-Debug-88a149c09d98dd819003.json",
+					"name" : "components",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "examples_common::@4c798bb2e0bca2849bb1",
+					"jsonFile" : "target-examples_common-Debug-b74a7097309db1085268.json",
+					"name" : "examples_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "lib_avian::@6477fcbee9b50dccd2cd",
+					"jsonFile" : "target-lib_avian-Debug-390a79fe20645e923581.json",
+					"name" : "lib_avian",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "modules::@5036b2ee7209c48b64d5",
+					"jsonFile" : "target-modules-Debug-24b1f7925cee94de1a6d.json",
+					"name" : "modules",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "muFFT::@d3f675317127c180cc4d",
+					"jsonFile" : "target-muFFT-Debug-d5966ec961c11bda9723.json",
+					"name" : "muFFT",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "muFFT-avx::@d3f675317127c180cc4d",
+					"jsonFile" : "target-muFFT-avx-Debug-d51350ef933206d67299.json",
+					"name" : "muFFT-avx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "muFFT-sse::@d3f675317127c180cc4d",
+					"jsonFile" : "target-muFFT-sse-Debug-bdf70f4d37a6c27aef5b.json",
+					"name" : "muFFT-sse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "muFFT-sse3::@d3f675317127c180cc4d",
+					"jsonFile" : "target-muFFT-sse3-Debug-aadd5ed1e91f18f134e1.json",
+					"name" : "muFFT-sse3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "platform::@a53253ec8d109bba1f48",
+					"jsonFile" : "target-platform-Debug-f0737fa8a85eb73a6c61.json",
+					"name" : "platform",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "pugixml-static::@16e3eca51e18ac322646",
+					"jsonFile" : "target-pugixml-static-Debug-80e173fe2f081cbb9567.json",
+					"name" : "pugixml-static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "rapidjson::@20b99dd78acade63dbb1",
+					"jsonFile" : "target-rapidjson-Debug-6948dbb3f45f98ec8f69.json",
+					"name" : "rapidjson",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk-Debug-fd7ff621706c1f7da052.json",
+					"name" : "rdk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "remote::@3b37b834d34e28fd8119",
+					"jsonFile" : "target-remote-Debug-71063d4e97828168fb39.json",
+					"name" : "remote",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "sdk_algo::@3080d0bae9cd47876b8f",
+					"jsonFile" : "target-sdk_algo-Debug-0554d5b070e7d6f0e7f3.json",
+					"name" : "sdk_algo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "sdk_avian::@e94c346cfe007d3428e9",
+					"jsonFile" : "target-sdk_avian-Debug-932b23bbf24b511aa6b3.json",
+					"name" : "sdk_avian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "sdk_base::@32d75b861c5914c2942d",
+					"jsonFile" : "target-sdk_base-Debug-ced03448d3e3eaaa9276.json",
+					"name" : "sdk_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "sdk_comport_obj::@137c568abd301793c57a",
+					"jsonFile" : "target-sdk_comport_obj-Debug-e99a9d8abbdc432d0be6.json",
+					"name" : "sdk_comport_obj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "sdk_cw::@594fdc0c7ea44d5df57a",
+					"jsonFile" : "target-sdk_cw-Debug-fec50d6d1ff6b555d0f3.json",
+					"name" : "sdk_cw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "sdk_fmcw::@247edf93ccc28e61a872",
+					"jsonFile" : "target-sdk_fmcw-Debug-9c807f23547a401e5b79.json",
+					"name" : "sdk_fmcw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "sdk_ltr11::@d1b970a29ffa4392e4f5",
+					"jsonFile" : "target-sdk_ltr11-Debug-1705bf8f866c3a513451.json",
+					"name" : "sdk_ltr11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "sdk_mimose::@5644977a7160b6f3e84a",
+					"jsonFile" : "target-sdk_mimose-Debug-396259a6f97961ce1a87.json",
+					"name" : "sdk_mimose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "sdk_radar::@54c7e01c0a628cb49ebe",
+					"jsonFile" : "target-sdk_radar-Debug-ab25297e77288b43420e.json",
+					"name" : "sdk_radar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "sdk_radar_device_common::@1bfef58ded37712d0285",
+					"jsonFile" : "target-sdk_radar_device_common-Debug-fe8c2f305a972144ec64.json",
+					"name" : "sdk_radar_device_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "strata_boards::@af46ec4be38e64d587b3",
+					"jsonFile" : "target-strata_boards-Debug-862bb06708036e81c62c.json",
+					"name" : "strata_boards",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "strata_library::@af46ec4be38e64d587b3",
+					"jsonFile" : "target-strata_library-Debug-d72eb0ee11759c079325.json",
+					"name" : "strata_library",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "strata_shared::@af46ec4be38e64d587b3",
+					"jsonFile" : "target-strata_shared-Debug-e50d541333307ae4c173.json",
+					"name" : "strata_shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "strata_static::@af46ec4be38e64d587b3",
+					"jsonFile" : "target-strata_static-Debug-5515d3cc4e0961ac898b.json",
+					"name" : "strata_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "strata_version::@af46ec4be38e64d587b3",
+					"jsonFile" : "target-strata_version-Debug-988bf311e8f0ce93a584.json",
+					"name" : "strata_version",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "universal::@1112eed96245bb019dff",
+					"jsonFile" : "target-universal-Debug-ce5c371ac5d1ea97c4b9.json",
+					"name" : "universal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "wheel-ifxradarsdk::@29dcbd4a42147fd2ca42",
+					"jsonFile" : "target-wheel-ifxradarsdk-Debug-51219a94209f4a28f182.json",
+					"name" : "wheel-ifxradarsdk",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/juhun/radar_ws/src/radar_sdk/build",
+		"source" : "/home/juhun/radar_ws/src/radar_sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

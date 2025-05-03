@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/c/BGT60UTR11AIP/continuous_wave",
+		"source" : "examples/c/BGT60UTR11AIP/continuous_wave"
+	}
+}

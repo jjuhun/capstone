@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./radar_sdk/sdk/py/wrapper_radarsdk/src"
+    ]
+}

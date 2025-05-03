@@ -1,0 +1,576 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.22.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"path" : "cmake/c_flags_overrides.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"path" : "cmake/c_flags_overrides.cmake"
+		},
+		{
+			"path" : "cmake/cxx_flags_overrides.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "cmake/build_settings.cmake"
+		},
+		{
+			"path" : "cmake/version.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/TestBigEndian.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"path" : "cmake/macros.cmake"
+		},
+		{
+			"path" : "3rd_party/libs/CMakeLists.txt"
+		},
+		{
+			"path" : "3rd_party/libs/argparse/CMakeLists.txt"
+		},
+		{
+			"path" : "3rd_party/libs/bossa/CMakeLists.txt"
+		},
+		{
+			"path" : "3rd_party/libs/muFFT/CMakeLists.txt"
+		},
+		{
+			"path" : "3rd_party/libs/nlohmann/CMakeLists.txt"
+		},
+		{
+			"path" : "external/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/Strata.cmake"
+		},
+		{
+			"path" : "external/strata/cmake/Dependencies.cmake"
+		},
+		{
+			"path" : "external/strata/cmake/Helper.cmake"
+		},
+		{
+			"path" : "external/strata/cmake/Install.cmake"
+		},
+		{
+			"path" : "external/strata/cmake/Platform.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/TestBigEndian.cmake"
+		},
+		{
+			"path" : "external/strata/cmake/Version.cmake"
+		},
+		{
+			"path" : "external/strata/contrib/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/contrib/rapidjson.cmake"
+		},
+		{
+			"path" : "external/strata/contrib/pugixml.cmake"
+		},
+		{
+			"path" : "external/strata/contrib/pugixml/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"path" : "external/strata/contrib/pugixml/scripts/pugixml-config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "external/strata/contrib/pugixml/scripts/pugixml.pc.in"
+		},
+		{
+			"path" : "external/strata/library/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/cmake/Compiler.cmake"
+		},
+		{
+			"path" : "external/strata/library/common/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/library/components/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/library/modules/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/library/platform/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "external/strata/library/remote/CMakeLists.txt"
+		},
+		{
+			"path" : "external/strata/library/universal/CMakeLists.txt"
+		},
+		{
+			"path" : "external/lib_avian/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "sdk/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"path" : "sdk/c/ifxAlgo/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxAvian/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxBase/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxComPort/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxCw/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxFmcw/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxLtr11/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxMimose/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxRadar/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/c/ifxRadarDeviceCommon/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/py/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "external/strata/cmake/wheels.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "external/strata/cmake/Dependencies.cmake"
+		},
+		{
+			"path" : "sdk/py/wrapper_radarsdk/CMakeLists.txt"
+		},
+		{
+			"path" : "sdk/py/wrapper_radarsdk/pyproject.toml.in"
+		},
+		{
+			"path" : "examples/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT24ATR22/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT24ATR22/raw_data/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60ATR24C/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60ATR24C/continuous_wave/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60ATR24C/raw_data/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60ATR24C/raw_data_legacy/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60LTR11AIP/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60LTR11AIP/advanced_motion_sensing/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/TargetPlatform.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/arch.c"
+		},
+		{
+			"path" : "examples/c/BGT60LTR11AIP/raw_data/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60TR13C/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60TR13C/continuous_wave/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60TR13C/motion_angle/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/TargetPlatform.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/arch.c"
+		},
+		{
+			"path" : "examples/c/BGT60TR13C/presence_detection/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/TargetPlatform.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/arch.c"
+		},
+		{
+			"path" : "examples/c/BGT60TR13C/range_doppler_map/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60TR13C/raw_data/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60TR13C/segmentation/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/TargetPlatform.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/arch.c"
+		},
+		{
+			"path" : "examples/c/BGT60UTR11AIP/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60UTR11AIP/continuous_wave/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/BGT60UTR11AIP/presence_detection/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/TargetPlatform.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/arch.c"
+		},
+		{
+			"path" : "examples/c/BGT60UTR11AIP/raw_data/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/c/common/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/juhun/radar_ws/src/radar_sdk/build",
+		"source" : "/home/juhun/radar_ws/src/radar_sdk"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

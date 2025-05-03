@@ -1,0 +1,457 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/lib/libsdk_algo.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_link_options",
+			"include",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"sdk/c/ifxAlgo/CMakeLists.txt",
+			"cmake/build_settings.cmake",
+			"CMakeLists.txt",
+			"sdk/c/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 31,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wvla -g -g -fPIC"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "IFX_LOG_SEVERITY_INFO=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SDK_COMMIT_HASH=\"\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "SDK_VERSION=\"3.6.4\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SDK_VERSION_FULL=\"3.6.4+\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "STRATA_IMPORT"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "STRATA_VERSION_BUILD=0"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "STRATA_VERSION_MAJOR=2"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "STRATA_VERSION_MINOR=3"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "STRATA_VERSION_PATCH=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "radar_sdk_EXPORTS=1"
+				},
+				{
+					"define" : "sdk_algo_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/juhun/radar_ws/src/radar_sdk/3rd_party/libs/muFFT"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/juhun/radar_ws/src/radar_sdk/sdk/c/ifxBase/.."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/juhun/radar_ws/src/radar_sdk/external/strata/library"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/juhun/radar_ws/src/radar_sdk/external/strata/library/platform/impl/Linux"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/juhun/radar_ws/src/radar_sdk/external/strata/contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/juhun/radar_ws/src/radar_sdk/external/strata/contrib/pugixml/src"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "muFFT::@d3f675317127c180cc4d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "muFFT-sse::@d3f675317127c180cc4d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "muFFT-sse3::@d3f675317127c180cc4d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "muFFT-avx::@d3f675317127c180cc4d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "pugixml-static::@16e3eca51e18ac322646"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "strata_shared::@af46ec4be38e64d587b3"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "sdk_base::@32d75b861c5914c2942d"
+		}
+	],
+	"id" : "sdk_algo::@3080d0bae9cd47876b8f",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--fatal-warnings",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "bin/lib/libmuFFT.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "bin/lib/libsdk_base.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bin/lib/libmuFFT-sse.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bin/lib/libmuFFT-sse3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bin/lib/libmuFFT-avx.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bin/lib/libstrata_shared-d.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bin/lib/libpugixml-d.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sdk_algo",
+	"nameOnDisk" : "libsdk_algo.so",
+	"paths" : 
+	{
+		"build" : "sdk/c/ifxAlgo",
+		"source" : "sdk/c/ifxAlgo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/2DMTI.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/DBSCAN.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/FFT.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/MTI.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/OSCFAR.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/PreprocessedFFT.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/Signal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sdk/c/ifxAlgo/Window.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/2DMTI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/Algo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/DBSCAN.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/FFT.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/MTI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/OSCFAR.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/PreprocessedFFT.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/Signal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sdk/c/ifxAlgo/Window.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

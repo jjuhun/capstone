@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/c/BGT60LTR11AIP/raw_data",
+		"source" : "examples/c/BGT60LTR11AIP/raw_data"
+	}
+}

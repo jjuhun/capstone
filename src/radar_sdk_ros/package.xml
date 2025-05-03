@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>radar_sdk_ros</name>
+  <version>0.0.1</version>
+  <description>ROS2 package for radar SDK using normalized antenna data</description>
+  
+  <maintainer email="jjh011013@koreatech.ac.kr">juhun Jeong</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend> <!-- ✅ 수정된 부분 -->
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>ifxradarsdk</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
