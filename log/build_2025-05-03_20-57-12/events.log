@@ -1,0 +1,828 @@
+[0.000000] (-) TimerEvent: {}
+[0.000345] (radar_sdk_ros) JobQueued: {'identifier': 'radar_sdk_ros', 'dependencies': OrderedDict()}
+[0.000376] (rdk) JobQueued: {'identifier': 'rdk', 'dependencies': OrderedDict()}
+[0.000391] (radar_sdk_ros) JobStarted: {'identifier': 'radar_sdk_ros'}
+[0.006289] (rdk) JobStarted: {'identifier': 'rdk'}
+[0.099254] (-) TimerEvent: {}
+[0.199548] (-) TimerEvent: {}
+[0.244439] (rdk) JobProgress: {'identifier': 'rdk', 'progress': 'cmake'}
+[0.244872] (rdk) Command: {'cmd': ['/usr/bin/cmake', '/home/juhun/capstone_ws/src/radar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/juhun/capstone_ws/install/rdk'], 'cwd': '/home/juhun/capstone_ws/build/rdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'juhun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/juhun/capstone_radar/ws_sdk/libs/linux_x64:'), ('HOME', '/home/juhun'), ('CYCLONEDDS_URI', ''), ('OLDPWD', '/home/juhun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1543'), ('SYSTEMD_EXEC_PID', '2188'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22502'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/juhun/capstone_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'juhun'), ('JOURNAL_STREAM', '8:18037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juhun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/juhun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juhun-930QCG:@/tmp/.ICE-unix/1860,unix/juhun-930QCG:/tmp/.ICE-unix/1860'), ('INVOCATION_ID', '7c42d44215964b5e81206777dc1e9d86'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IAST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/juhun/capstone_ws/install/radar_sdk_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:80ec2d92-9d0b-48f6-b4a7-d4f4b2750969'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juhun/capstone_ws/build/rdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/juhun/capstone_ws/radar_sdk/sdk/py/wrapper_radarsdk/build/lib:'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.290586] (rdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299642] (-) TimerEvent: {}
+[0.342403] (rdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.353395] (rdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399744] (-) TimerEvent: {}
+[0.418165] (rdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.434181] (rdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.434397] (rdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.434817] (rdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.446766] (rdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499870] (-) TimerEvent: {}
+[0.516216] (rdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.531013] (rdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.531330] (rdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.532005] (rdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.537492] (rdk) StdoutLine: {'line': b'-- SDK version: 3.6.4\n'}
+[0.541941] (rdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at 3rd_party/libs/argparse/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.542153] (rdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.542212] (rdk) StderrLine: {'line': b'  CMake.\n'}
+[0.542260] (rdk) StderrLine: {'line': b'\n'}
+[0.542346] (rdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.542397] (rdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.542446] (rdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.542493] (rdk) StderrLine: {'line': b'\n'}
+[0.542542] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.542911] (rdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at 3rd_party/libs/muFFT/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.543002] (rdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.543067] (rdk) StderrLine: {'line': b'  CMake.\n'}
+[0.543128] (rdk) StderrLine: {'line': b'\n'}
+[0.543189] (rdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.543250] (rdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.543388] (rdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.543440] (rdk) StderrLine: {'line': b'\n'}
+[0.543485] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.543535] (rdk) StderrLine: {'line': b'\x1b[0mProcessor: x86_64\x1b[0m\n'}
+[0.543580] (rdk) StderrLine: {'line': b'\x1b[0mEnabling x86 SIMD support.\x1b[0m\n'}
+[0.544432] (rdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at external/strata/CMakeLists.txt:26 (cmake_minimum_required):\n'}
+[0.544559] (rdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.544624] (rdk) StderrLine: {'line': b'  CMake.\n'}
+[0.544693] (rdk) StderrLine: {'line': b'\n'}
+[0.544757] (rdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.544818] (rdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.544876] (rdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.544936] (rdk) StderrLine: {'line': b'\n'}
+[0.544995] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.545094] (rdk) StdoutLine: {'line': b'-- Strata directory: /home/juhun/capstone_ws/src/radar_sdk/external/strata\n'}
+[0.545823] (rdk) StdoutLine: {'line': b'-- Strata version: 2.3.1.0\n'}
+[0.545912] (rdk) StdoutLine: {'line': b'-- Strata target architecture/platform: x86 64bit Linux\n'}
+[0.547414] (rdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at external/strata/contrib/pugixml/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.547531] (rdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.547582] (rdk) StderrLine: {'line': b'  CMake.\n'}
+[0.547628] (rdk) StderrLine: {'line': b'\n'}
+[0.547671] (rdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.547713] (rdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.547756] (rdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.547798] (rdk) StderrLine: {'line': b'\n'}
+[0.547841] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.557656] (rdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600020] (-) TimerEvent: {}
+[0.607061] (radar_sdk_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/radar_sdk_ros', 'build', '--build-base', '/home/juhun/capstone_ws/build/radar_sdk_ros/build', 'install', '--record', '/home/juhun/capstone_ws/build/radar_sdk_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/juhun/capstone_ws/src/radar_sdk_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'juhun', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/juhun/capstone_radar/ws_sdk/libs/linux_x64:', 'HOME': '/home/juhun', 'CYCLONEDDS_URI': '', 'OLDPWD': '/home/juhun', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1543', 'SYSTEMD_EXEC_PID': '2188', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '22502', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/juhun/capstone_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'juhun', 'JOURNAL_STREAM': '8:18037', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juhun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/juhun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juhun-930QCG:@/tmp/.ICE-unix/1860,unix/juhun-930QCG:/tmp/.ICE-unix/1860', 'INVOCATION_ID': '7c42d44215964b5e81206777dc1e9d86', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IAST52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/juhun/capstone_ws/install/radar_sdk_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:80ec2d92-9d0b-48f6-b4a7-d4f4b2750969', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juhun/capstone_ws/build/radar_sdk_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juhun/capstone_ws/build/radar_sdk_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages:/home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/juhun/capstone_ws/radar_sdk/sdk/py/wrapper_radarsdk/build/lib:', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.620495] (rdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.621671] (rdk) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.631292] (rdk) StdoutLine: {'line': b'-- Lib Avian includes StrataPort.\n'}
+[0.634601] (rdk) StdoutLine: {'line': b'-- Looking for sqrt in m\n'}
+[0.697404] (rdk) StdoutLine: {'line': b'-- Looking for sqrt in m - found\n'}
+[0.700131] (-) TimerEvent: {}
+[0.800438] (-) TimerEvent: {}
+[0.832984] (radar_sdk_ros) StdoutLine: {'line': b'running egg_info\n'}
+[0.833775] (radar_sdk_ros) StdoutLine: {'line': b'creating ../../build/radar_sdk_ros/radar_sdk_ros.egg-info\n'}
+[0.834001] (radar_sdk_ros) StdoutLine: {'line': b'writing ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/PKG-INFO\n'}
+[0.834213] (radar_sdk_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/dependency_links.txt\n'}
+[0.834417] (radar_sdk_ros) StdoutLine: {'line': b'writing entry points to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/entry_points.txt\n'}
+[0.834597] (radar_sdk_ros) StdoutLine: {'line': b'writing requirements to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/requires.txt\n'}
+[0.834727] (radar_sdk_ros) StdoutLine: {'line': b'writing top-level names to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/top_level.txt\n'}
+[0.834814] (radar_sdk_ros) StdoutLine: {'line': b"writing manifest file '../../build/radar_sdk_ros/radar_sdk_ros.egg-info/SOURCES.txt'\n"}
+[0.836722] (radar_sdk_ros) StdoutLine: {'line': b"reading manifest file '../../build/radar_sdk_ros/radar_sdk_ros.egg-info/SOURCES.txt'\n"}
+[0.837414] (radar_sdk_ros) StdoutLine: {'line': b"writing manifest file '../../build/radar_sdk_ros/radar_sdk_ros.egg-info/SOURCES.txt'\n"}
+[0.837636] (radar_sdk_ros) StdoutLine: {'line': b'running build\n'}
+[0.837694] (radar_sdk_ros) StdoutLine: {'line': b'running build_py\n'}
+[0.837837] (radar_sdk_ros) StdoutLine: {'line': b'creating /home/juhun/capstone_ws/build/radar_sdk_ros/build\n'}
+[0.837997] (radar_sdk_ros) StdoutLine: {'line': b'creating /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib\n'}
+[0.838064] (radar_sdk_ros) StdoutLine: {'line': b'creating /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838112] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/campub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838207] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/break_limit_data_save.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838299] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/radar_sub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838408] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/normalized.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838500] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/real_time_radar.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838601] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/radar_pub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838687] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/real_time_radar_sub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838781] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/cam_and_radar.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838892] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/cam.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.838990] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/break_limit_data.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.839070] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/normalized_antenna_copy.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.839169] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/exmple_ros.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.839256] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/__init__.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.839364] (radar_sdk_ros) StdoutLine: {'line': b'copying radar_sdk_ros/camsub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros\n'}
+[0.839725] (radar_sdk_ros) StdoutLine: {'line': b'running install\n'}
+[0.840167] (radar_sdk_ros) StdoutLine: {'line': b'running install_lib\n'}
+[0.841436] (radar_sdk_ros) StdoutLine: {'line': b'creating /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.841611] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/campub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.841710] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/break_limit_data_save.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.841799] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/radar_sub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.841882] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/normalized.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.841966] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/real_time_radar.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842077] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/radar_pub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842149] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/real_time_radar_sub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842225] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/cam_and_radar.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842305] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/cam.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842375] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/break_limit_data.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842441] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/normalized_antenna_copy.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842506] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/exmple_ros.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842571] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/__init__.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.842635] (radar_sdk_ros) StdoutLine: {'line': b'copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/camsub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros\n'}
+[0.843177] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/campub.py to campub.cpython-310.pyc\n'}
+[0.843715] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/break_limit_data_save.py to break_limit_data_save.cpython-310.pyc\n'}
+[0.844405] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/radar_sub.py to radar_sub.cpython-310.pyc\n'}
+[0.844734] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/normalized.py to normalized.cpython-310.pyc\n'}
+[0.845241] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/real_time_radar.py to real_time_radar.cpython-310.pyc\n'}
+[0.846320] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/radar_pub.py to radar_pub.cpython-310.pyc\n'}
+[0.846883] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/real_time_radar_sub.py to real_time_radar_sub.cpython-310.pyc\n'}
+[0.847740] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/cam_and_radar.py to cam_and_radar.cpython-310.pyc\n'}
+[0.848683] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/cam.py to cam.cpython-310.pyc\n'}
+[0.848840] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/break_limit_data.py to break_limit_data.cpython-310.pyc\n'}
+[0.849383] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/normalized_antenna_copy.py to normalized_antenna_copy.cpython-310.pyc\n'}
+[0.849989] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/exmple_ros.py to exmple_ros.cpython-310.pyc\n'}
+[0.850076] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/__init__.py to __init__.cpython-310.pyc\n'}
+[0.850181] (radar_sdk_ros) StdoutLine: {'line': b'byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/camsub.py to camsub.cpython-310.pyc\n'}
+[0.850665] (radar_sdk_ros) StdoutLine: {'line': b'running install_data\n'}
+[0.850776] (radar_sdk_ros) StdoutLine: {'line': b'copying package.xml -> /home/juhun/capstone_ws/install/radar_sdk_ros/share/radar_sdk_ros\n'}
+[0.850850] (radar_sdk_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.852454] (radar_sdk_ros) StdoutLine: {'line': b'Copying ../../build/radar_sdk_ros/radar_sdk_ros.egg-info to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros-0.0.1-py3.10.egg-info\n'}
+[0.853101] (radar_sdk_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[0.871993] (radar_sdk_ros) StdoutLine: {'line': b'Installing campub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros\n'}
+[0.872155] (radar_sdk_ros) StdoutLine: {'line': b'Installing camsub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros\n'}
+[0.872223] (radar_sdk_ros) StdoutLine: {'line': b'Installing radar_pub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros\n'}
+[0.872289] (radar_sdk_ros) StdoutLine: {'line': b'Installing radar_pub_limit script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros\n'}
+[0.872440] (radar_sdk_ros) StdoutLine: {'line': b'Installing radar_spectrogram script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros\n'}
+[0.872527] (radar_sdk_ros) StdoutLine: {'line': b'Installing radar_sub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros\n'}
+[0.872685] (radar_sdk_ros) StdoutLine: {'line': b"writing list of installed files to '/home/juhun/capstone_ws/build/radar_sdk_ros/install.log'\n"}
+[0.900478] (radar_sdk_ros) CommandEnded: {'returncode': 0}
+[0.900835] (-) TimerEvent: {}
+[0.913616] (radar_sdk_ros) JobEnded: {'identifier': 'radar_sdk_ros', 'rc': 0}
+[1.001005] (-) TimerEvent: {}
+[1.101290] (-) TimerEvent: {}
+[1.201606] (-) TimerEvent: {}
+[1.210086] (rdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter\n'}
+[1.301770] (-) TimerEvent: {}
+[1.358752] (rdk) StderrLine: {'line': b'<string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives\n'}
+[1.375416] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:50 (add_custom_command):\n'}
+[1.375556] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.375607] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.375688] (rdk) StderrLine: {'line': b'\n'}
+[1.375732] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.375781] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.375839] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.375886] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.375931] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.376066] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.376123] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.376170] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.376217] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.376263] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.376571] (rdk) StderrLine: {'line': b'\n'}
+[1.376623] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.376666] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.376709] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.376752] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.376795] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.376836] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.376878] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.376919] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.376967] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.377009] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.377053] (rdk) StderrLine: {'line': b'\n'}
+[1.377095] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.377137] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.377179] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.377219] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.377262] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.377315] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.377358] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.377399] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.377440] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.377482] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.377525] (rdk) StderrLine: {'line': b'\n'}
+[1.377569] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.377616] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.377660] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.377702] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.377743] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.377790] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.377832] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.377873] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.377915] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.377957] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.377999] (rdk) StderrLine: {'line': b'\n'}
+[1.378039] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.378080] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.378121] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.378162] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.378203] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.378244] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.378294] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.378340] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.378381] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.378421] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.378462] (rdk) StderrLine: {'line': b'\n'}
+[1.378502] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.378543] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.378584] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.378623] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.378663] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.378702] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.378739] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.378779] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.378818] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.378859] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.378898] (rdk) StderrLine: {'line': b'\n'}
+[1.378938] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.378977] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.379017] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.379061] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.379102] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.379143] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.379183] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.379222] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.379262] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.379326] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.379370] (rdk) StderrLine: {'line': b'\n'}
+[1.379411] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.379452] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.379491] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.379532] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.379573] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.379612] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.379652] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.379692] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.379733] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.379773] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.379812] (rdk) StderrLine: {'line': b'\n'}
+[1.379852] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.379893] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.379934] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.379974] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.380014] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.380053] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.380094] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.380134] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):\n'}
+[1.380179] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.380220] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.380260] (rdk) StderrLine: {'line': b'\n'}
+[1.380308] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.380350] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.380423] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.380459] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.380496] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.380532] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.380567] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.380604] (rdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:86 (add_custom_command):\n'}
+[1.380641] (rdk) StderrLine: {'line': b'  Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming\n'}
+[1.380678] (rdk) StderrLine: {'line': b'  POST_BUILD to preserve backward compatibility.\n'}
+[1.380715] (rdk) StderrLine: {'line': b'\n'}
+[1.380751] (rdk) StderrLine: {'line': b'  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.\n'}
+[1.380787] (rdk) StderrLine: {'line': b'  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy\n'}
+[1.380824] (rdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.380861] (rdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.380901] (rdk) StderrLine: {'line': b'  sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)\n'}
+[1.380937] (rdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.380974] (rdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.401873] (-) TimerEvent: {}
+[1.464142] (rdk) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.502043] (-) TimerEvent: {}
+[1.577617] (rdk) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.602210] (-) TimerEvent: {}
+[1.605104] (rdk) StdoutLine: {'line': b'-- Build files have been written to: /home/juhun/capstone_ws/build/rdk\n'}
+[1.615068] (rdk) CommandEnded: {'returncode': 0}
+[1.615688] (rdk) JobProgress: {'identifier': 'rdk', 'progress': 'build'}
+[1.616390] (rdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juhun/capstone_ws/build/rdk', '--', '-j8', '-l8'], 'cwd': '/home/juhun/capstone_ws/build/rdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'juhun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/juhun/capstone_radar/ws_sdk/libs/linux_x64:'), ('HOME', '/home/juhun'), ('CYCLONEDDS_URI', ''), ('OLDPWD', '/home/juhun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1543'), ('SYSTEMD_EXEC_PID', '2188'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22502'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/juhun/capstone_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'juhun'), ('JOURNAL_STREAM', '8:18037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juhun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/juhun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juhun-930QCG:@/tmp/.ICE-unix/1860,unix/juhun-930QCG:/tmp/.ICE-unix/1860'), ('INVOCATION_ID', '7c42d44215964b5e81206777dc1e9d86'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IAST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/juhun/capstone_ws/install/radar_sdk_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:80ec2d92-9d0b-48f6-b4a7-d4f4b2750969'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juhun/capstone_ws/build/rdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/juhun/capstone_ws/radar_sdk/sdk/py/wrapper_radarsdk/build/lib:'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.646802] (rdk) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object external/strata/library/CMakeFiles/strata_library.dir/Library.cpp.o\x1b[0m\n'}
+[1.647045] (rdk) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object external/strata/contrib/pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o\x1b[0m\n'}
+[1.647161] (rdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object external/strata/library/universal/CMakeFiles/universal.dir/error_strings.c.o\x1b[0m\n'}
+[1.647249] (rdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc6.cpp.o\x1b[0m\n'}
+[1.647351] (rdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object external/strata/library/CMakeFiles/strata_version.dir/Version.cpp.o\x1b[0m\n'}
+[1.647435] (rdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object external/strata/library/CMakeFiles/strata_boards.dir/BoardList.cpp.o\x1b[0m\n'}
+[1.647601] (rdk) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/FlashImage.cpp.o\x1b[0m\n'}
+[1.647697] (rdk) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteGasBoyle.cpp.o\x1b[0m\n'}
+[1.677437] (rdk) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc8.cpp.o\x1b[0m\n'}
+[1.677688] (rdk) StdoutLine: {'line': b'[  6%] Built target strata_version\n'}
+[1.679222] (rdk) StdoutLine: {'line': b'[  6%] Built target universal\n'}
+[1.682434] (rdk) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolAtr22.cpp.o\x1b[0m\n'}
+[1.686076] (rdk) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc16.cpp.o\x1b[0m\n'}
+[1.702343] (-) TimerEvent: {}
+[1.706661] (rdk) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolAvian.cpp.o\x1b[0m\n'}
+[1.802480] (-) TimerEvent: {}
+[1.810445] (rdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc32.cpp.o\x1b[0m\n'}
+[1.856854] (rdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/endian/LittleEndianReader.cpp.o\x1b[0m\n'}
+[1.866484] (rdk) StdoutLine: {'line': b'[  7%] Built target strata_library\n'}
+[1.874360] (rdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/Logger.cpp.o\x1b[0m\n'}
+[1.902611] (-) TimerEvent: {}
+[1.995426] (rdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/Registers8bitPec.cpp.o\x1b[0m\n'}
+[2.002896] (-) TimerEvent: {}
+[2.104372] (-) TimerEvent: {}
+[2.204775] (-) TimerEvent: {}
+[2.242369] (rdk) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolLtr11.cpp.o\x1b[0m\n'}
+[2.297764] (rdk) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT-avx.dir/x86/kernel.avx.c.o\x1b[0m\n'}
+[2.304895] (-) TimerEvent: {}
+[2.329429] (rdk) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/Profiler.cpp.o\x1b[0m\n'}
+[2.355195] (rdk) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs.cpp.o\x1b[0m\n'}
+[2.405402] (-) TimerEvent: {}
+[2.507036] (-) TimerEvent: {}
+[2.568413] (rdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT-sse.dir/x86/kernel.sse.c.o\x1b[0m\n'}
+[2.607176] (-) TimerEvent: {}
+[2.654390] (rdk) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT-sse3.dir/x86/kernel.sse3.c.o\x1b[0m\n'}
+[2.707777] (-) TimerEvent: {}
+[2.740445] (rdk) StdoutLine: {'line': b'[ 11%] Built target strata_boards\n'}
+[2.745680] (rdk) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolSmartar.cpp.o\x1b[0m\n'}
+[2.807915] (-) TimerEvent: {}
+[2.818228] (rdk) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking C static library ../../../bin/lib/libmuFFT-sse.a\x1b[0m\n'}
+[2.883461] (rdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs11x5.cpp.o\x1b[0m\n'}
+[2.894696] (rdk) StdoutLine: {'line': b'[ 13%] Built target muFFT-sse\n'}
+[2.900182] (rdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/ProductVersion.cpp.o\x1b[0m\n'}
+[2.908042] (-) TimerEvent: {}
+[2.919411] (rdk) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C static library ../../../bin/lib/libmuFFT-sse3.a\x1b[0m\n'}
+[2.943513] (rdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs16x5.cpp.o\x1b[0m\n'}
+[2.973688] (rdk) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsAvian.cpp.o\x1b[0m\n'}
+[2.982821] (rdk) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C static library ../../../bin/lib/libmuFFT-avx.a\x1b[0m\n'}
+[3.002609] (rdk) StdoutLine: {'line': b'[ 14%] Built target muFFT-sse3\n'}
+[3.002877] (rdk) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsLtr11.cpp.o\x1b[0m\n'}
+[3.008550] (-) TimerEvent: {}
+[3.078449] (rdk) StdoutLine: {'line': b'[ 14%] Built target muFFT-avx\n'}
+[3.085790] (rdk) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/PinsIrs.cpp.o\x1b[0m\n'}
+[3.112389] (-) TimerEvent: {}
+[3.207683] (rdk) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/COMPort_Unix.c.o\x1b[0m\n'}
+[3.212514] (-) TimerEvent: {}
+[3.312961] (-) TimerEvent: {}
+[3.328119] (rdk) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/COMPort_Windows.c.o\x1b[0m\n'}
+[3.385091] (rdk) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/ComPort.cpp.o\x1b[0m\n'}
+[3.398072] (rdk) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object 3rd_party/libs/argparse/CMakeFiles/argparse.dir/argparse.c.o\x1b[0m\n'}
+[3.413094] (-) TimerEvent: {}
+[3.461818] (rdk) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/RegistersIrs.cpp.o\x1b[0m\n'}
+[3.464691] (rdk) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/powerSupply/PowerSupplyMax2043xPec.cpp.o\x1b[0m\n'}
+[3.477785] (rdk) StdoutLine: {'line': b'[ 18%] Built target common\n'}
+[3.485379] (rdk) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/powerSupply/SupplyMonitorIna231.cpp.o\x1b[0m\n'}
+[3.499870] (rdk) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C static library ../../../bin/lib/libargparse.a\x1b[0m\n'}
+[3.513511] (-) TimerEvent: {}
+[3.533488] (rdk) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsSmartar.cpp.o\x1b[0m\n'}
+[3.566373] (rdk) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT.dir/fft.c.o\x1b[0m\n'}
+[3.577941] (rdk) StdoutLine: {'line': b'[ 19%] Built target argparse\n'}
+[3.586435] (rdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProcessingRadar.cpp.o\x1b[0m\n'}
+[3.590950] (rdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT.dir/kernel.c.o\x1b[0m\n'}
+[3.599553] (rdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRegisters.cpp.o\x1b[0m\n'}
+[3.613639] (-) TimerEvent: {}
+[3.700364] (rdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/radar/TypeSerialization.cpp.o\x1b[0m\n'}
+[3.713772] (-) TimerEvent: {}
+[3.770478] (rdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT.dir/cpu.c.o\x1b[0m\n'}
+[3.813913] (-) TimerEvent: {}
+[3.839427] (rdk) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C static library ../../../bin/lib/libmuFFT.a\x1b[0m\n'}
+[3.914066] (-) TimerEvent: {}
+[3.922000] (rdk) StdoutLine: {'line': b'[ 22%] Built target muFFT\n'}
+[3.930240] (rdk) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarAvian.cpp.o\x1b[0m\n'}
+[3.976376] (rdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemory.cpp.o\x1b[0m\n'}
+[3.988746] (rdk) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX static library ../../../../bin/lib/libpugixml.a\x1b[0m\n'}
+[4.014209] (-) TimerEvent: {}
+[4.053781] (rdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryEepromI2c.cpp.o\x1b[0m\n'}
+[4.066943] (rdk) StdoutLine: {'line': b'[ 25%] Built target pugixml-static\n'}
+[4.075644] (rdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarAtr22.cpp.o\x1b[0m\n'}
+[4.114354] (-) TimerEvent: {}
+[4.158982] (rdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlash.cpp.o\x1b[0m\n'}
+[4.166611] (rdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardAny.cpp.o\x1b[0m\n'}
+[4.218383] (-) TimerEvent: {}
+[4.318904] (-) TimerEvent: {}
+[4.419376] (-) TimerEvent: {}
+[4.519839] (-) TimerEvent: {}
+[4.520265] (rdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarLtr11.cpp.o\x1b[0m\n'}
+[4.527194] (rdk) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlashSpi.cpp.o\x1b[0m\n'}
+[4.618469] (rdk) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardDescriptor.cpp.o\x1b[0m\n'}
+[4.618884] (rdk) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardInstance.cpp.o\x1b[0m\n'}
+[4.619958] (-) TimerEvent: {}
+[4.637458] (rdk) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarSmartar.cpp.o\x1b[0m\n'}
+[4.723595] (-) TimerEvent: {}
+[4.752013] (rdk) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardManager.cpp.o\x1b[0m\n'}
+[4.781444] (rdk) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/temperature/TemperatureSensorTMP102.cpp.o\x1b[0m\n'}
+[4.823700] (-) TimerEvent: {}
+[4.825079] (rdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/temperature/TemperatureSensorMCP98x43.cpp.o\x1b[0m\n'}
+[4.874215] (rdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/processing/ProcessingRadar.cpp.o\x1b[0m\n'}
+[4.923840] (-) TimerEvent: {}
+[4.929454] (rdk) StdoutLine: {'line': b'[ 30%] Built target components\n'}
+[4.939473] (rdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteVendorCommands.cpp.o\x1b[0m\n'}
+[5.024046] (-) TimerEvent: {}
+[5.106402] (rdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/NamedMemory.cpp.o\x1b[0m\n'}
+[5.124172] (-) TimerEvent: {}
+[5.206432] (rdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/Memory.cpp.o\x1b[0m\n'}
+[5.224334] (-) TimerEvent: {}
+[5.311150] (rdk) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeControl.cpp.o\x1b[0m\n'}
+[5.324457] (-) TimerEvent: {}
+[5.366378] (rdk) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeData.cpp.o\x1b[0m\n'}
+[5.397675] (rdk) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocol.cpp.o\x1b[0m\n'}
+[5.424586] (-) TimerEvent: {}
+[5.442193] (rdk) StdoutLine: {'line': b'[ 32%] Built target remote\n'}
+[5.449431] (rdk) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolI2c.cpp.o\x1b[0m\n'}
+[5.524722] (-) TimerEvent: {}
+[5.625189] (-) TimerEvent: {}
+[5.725666] (-) TimerEvent: {}
+[5.826134] (-) TimerEvent: {}
+[5.928437] (-) TimerEvent: {}
+[6.010733] (rdk) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolGpio.cpp.o\x1b[0m\n'}
+[6.022473] (rdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolSpi.cpp.o\x1b[0m\n'}
+[6.028542] (-) TimerEvent: {}
+[6.129027] (-) TimerEvent: {}
+[6.144367] (rdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolMemory.cpp.o\x1b[0m\n'}
+[6.229159] (-) TimerEvent: {}
+[6.240455] (rdk) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolFlash.cpp.o\x1b[0m\n'}
+[6.252409] (rdk) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolData.cpp.o\x1b[0m\n'}
+[6.329323] (-) TimerEvent: {}
+[6.419651] (rdk) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeWrapperBase.cpp.o\x1b[0m\n'}
+[6.429452] (-) TimerEvent: {}
+[6.529907] (-) TimerEvent: {}
+[6.546823] (rdk) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/VendorCommandsImpl.cpp.o\x1b[0m\n'}
+[6.623293] (rdk) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernet.cpp.o\x1b[0m\n'}
+[6.630044] (-) TimerEvent: {}
+[6.659628] (rdk) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetControl.cpp.o\x1b[0m\n'}
+[6.733366] (-) TimerEvent: {}
+[6.738890] (rdk) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetData.cpp.o\x1b[0m\n'}
+[6.800496] (rdk) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetTcp.cpp.o\x1b[0m\n'}
+[6.833508] (-) TimerEvent: {}
+[6.933955] (-) TimerEvent: {}
+[7.034395] (-) TimerEvent: {}
+[7.057543] (rdk) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetUdp.cpp.o\x1b[0m\n'}
+[7.057845] (rdk) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/EnumeratorEthernet.cpp.o\x1b[0m\n'}
+[7.135380] (-) TimerEvent: {}
+[7.235841] (-) TimerEvent: {}
+[7.336332] (-) TimerEvent: {}
+[7.439043] (-) TimerEvent: {}
+[7.521371] (rdk) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetTcp.cpp.o\x1b[0m\n'}
+[7.539176] (-) TimerEvent: {}
+[7.539542] (rdk) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetUdp.cpp.o\x1b[0m\n'}
+[7.639324] (-) TimerEvent: {}
+[7.720732] (rdk) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardDescriptorEthernet.cpp.o\x1b[0m\n'}
+[7.739458] (-) TimerEvent: {}
+[7.839906] (-) TimerEvent: {}
+[7.850207] (rdk) StdoutLine: {'line': b'[ 39%] Built target sdk_comport_obj\n'}
+[7.858397] (rdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketTcp.cpp.o\x1b[0m\n'}
+[7.907399] (rdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketUdp.cpp.o\x1b[0m\n'}
+[7.940045] (-) TimerEvent: {}
+[7.952128] (rdk) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/fpga/BridgeFpgaIrpli.cpp.o\x1b[0m\n'}
+[8.027762] (rdk) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/DebugFrame.cpp.o\x1b[0m\n'}
+[8.043367] (-) TimerEvent: {}
+[8.090381] (rdk) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/ErrorFrame.cpp.o\x1b[0m\n'}
+[8.143507] (-) TimerEvent: {}
+[8.243960] (-) TimerEvent: {}
+[8.344462] (-) TimerEvent: {}
+[8.380303] (rdk) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/Frame.cpp.o\x1b[0m\n'}
+[8.444600] (-) TimerEvent: {}
+[8.476743] (rdk) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameBase.cpp.o\x1b[0m\n'}
+[8.546380] (-) TimerEvent: {}
+[8.646797] (-) TimerEvent: {}
+[8.647124] (rdk) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameForwarder.cpp.o\x1b[0m\n'}
+[8.746946] (-) TimerEvent: {}
+[8.779626] (rdk) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FramePool.cpp.o\x1b[0m\n'}
+[8.841585] (rdk) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameQueue.cpp.o\x1b[0m\n'}
+[8.842620] (rdk) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameHelper.cpp.o\x1b[0m\n'}
+[8.850367] (-) TimerEvent: {}
+[8.950811] (-) TimerEvent: {}
+[8.980308] (rdk) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/macro/BoardInstanceMacro.cpp.o\x1b[0m\n'}
+[9.030817] (rdk) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/macro/BridgeMacro.cpp.o\x1b[0m\n'}
+[9.053356] (-) TimerEvent: {}
+[9.061448] (rdk) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/serial/SerialPort.cpp.o\x1b[0m\n'}
+[9.107426] (rdk) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/serial/BridgeSerial.cpp.o\x1b[0m\n'}
+[9.115823] (rdk) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/serial/BoardSerial.cpp.o\x1b[0m\n'}
+[9.153491] (-) TimerEvent: {}
+[9.253899] (-) TimerEvent: {}
+[9.290089] (rdk) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/BoardUvc.cpp.o\x1b[0m\n'}
+[9.355366] (-) TimerEvent: {}
+[9.455796] (-) TimerEvent: {}
+[9.556236] (-) TimerEvent: {}
+[9.629631] (rdk) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionCypress.cpp.o\x1b[0m\n'}
+[9.656382] (-) TimerEvent: {}
+[9.760515] (-) TimerEvent: {}
+[9.860988] (-) TimerEvent: {}
+[9.961483] (-) TimerEvent: {}
+[9.971917] (rdk) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtek.cpp.o\x1b[0m\n'}
+[10.058585] (rdk) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekFlash.cpp.o\x1b[0m\n'}
+[10.061610] (-) TimerEvent: {}
+[10.162077] (-) TimerEvent: {}
+[10.252006] (rdk) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekI2c.cpp.o\x1b[0m\n'}
+[10.263388] (-) TimerEvent: {}
+[10.363825] (-) TimerEvent: {}
+[10.464235] (-) TimerEvent: {}
+[10.467632] (rdk) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/boards/Board.cpp.o\x1b[0m\n'}
+[10.475737] (rdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardGeneric.cpp.o\x1b[0m\n'}
+[10.513455] (rdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardRemote.cpp.o\x1b[0m\n'}
+[10.564368] (-) TimerEvent: {}
+[10.629100] (rdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/serial/SerialPortImpl.cpp.o\x1b[0m\n'}
+[10.655980] (rdk) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/serial/EnumeratorSerialImpl.cpp.o\x1b[0m\n'}
+[10.664500] (-) TimerEvent: {}
+[10.764953] (-) TimerEvent: {}
+[10.831807] (rdk) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/EnumeratorV4l2.cpp.o\x1b[0m\n'}
+[10.840481] (rdk) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/BridgeV4l2.cpp.o\x1b[0m\n'}
+[10.865106] (-) TimerEvent: {}
+[10.968587] (-) TimerEvent: {}
+[11.008587] (rdk) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/FrameV4l2.cpp.o\x1b[0m\n'}
+[11.068723] (-) TimerEvent: {}
+[11.109423] (rdk) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/FramePoolV4l2.cpp.o\x1b[0m\n'}
+[11.168878] (-) TimerEvent: {}
+[11.241867] (rdk) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketImpl.cpp.o\x1b[0m\n'}
+[11.269008] (-) TimerEvent: {}
+[11.369321] (rdk) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketTcpImpl.cpp.o\x1b[0m\n'}
+[11.369641] (-) TimerEvent: {}
+[11.470044] (-) TimerEvent: {}
+[11.571594] (-) TimerEvent: {}
+[11.672046] (-) TimerEvent: {}
+[11.775591] (-) TimerEvent: {}
+[11.839655] (rdk) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketUdpImpl.cpp.o\x1b[0m\n'}
+[11.875727] (-) TimerEvent: {}
+[11.928238] (rdk) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/serial/SerialPortImplBase.cpp.o\x1b[0m\n'}
+[11.975857] (-) TimerEvent: {}
+[12.006480] (rdk) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/serial/EnumeratorSerialImplBase.cpp.o\x1b[0m\n'}
+[12.076874] (-) TimerEvent: {}
+[12.177348] (-) TimerEvent: {}
+[12.277772] (-) TimerEvent: {}
+[12.378202] (-) TimerEvent: {}
+[12.478614] (-) TimerEvent: {}
+[12.579009] (-) TimerEvent: {}
+[12.679414] (-) TimerEvent: {}
+[12.779747] (-) TimerEvent: {}
+[12.880070] (-) TimerEvent: {}
+[12.980398] (-) TimerEvent: {}
+[13.080749] (-) TimerEvent: {}
+[13.181077] (-) TimerEvent: {}
+[13.281431] (-) TimerEvent: {}
+[13.381789] (-) TimerEvent: {}
+[13.434696] (rdk) StdoutLine: {'line': b'[ 54%] Built target platform\n'}
+[13.444864] (rdk) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object external/strata/library/CMakeFiles/strata_shared.dir/Dummy.cpp.o\x1b[0m\n'}
+[13.459360] (rdk) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libstrata_shared.so\x1b[0m\n'}
+[13.481923] (-) TimerEvent: {}
+[13.582294] (-) TimerEvent: {}
+[13.682687] (-) TimerEvent: {}
+[13.783069] (-) TimerEvent: {}
+[13.881203] (rdk) StdoutLine: {'line': b'[ 55%] Built target strata_shared\n'}
+[13.883152] (-) TimerEvent: {}
+[13.892815] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/LA.c.o\x1b[0m\n'}
+[13.893041] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/default_settings.cpp.o\x1b[0m\n'}
+[13.893152] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Error.c.o\x1b[0m\n'}
+[13.893244] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/easy_mode.cpp.o\x1b[0m\n'}
+[13.893365] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/data_acquisition.cpp.o\x1b[0m\n'}
+[13.893458] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Cube.c.o\x1b[0m\n'}
+[13.893551] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Complex.c.o\x1b[0m\n'}
+[13.893636] (rdk) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/List.cpp.o\x1b[0m\n'}
+[13.960895] (rdk) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Log.c.o\x1b[0m\n'}
+[13.966734] (rdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/ifxRadar_BGT60TRxx.cpp.o\x1b[0m\n'}
+[13.977327] (rdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/spi_programming.cpp.o\x1b[0m\n'}
+[13.985365] (-) TimerEvent: {}
+[14.001778] (rdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Math.c.o\x1b[0m\n'}
+[14.052377] (rdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/testing.cpp.o\x1b[0m\n'}
+[14.087375] (-) TimerEvent: {}
+[14.089318] (rdk) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Matrix.c.o\x1b[0m\n'}
+[14.141460] (rdk) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_CwController.cpp.o\x1b[0m\n'}
+[14.187509] (-) TimerEvent: {}
+[14.287954] (-) TimerEvent: {}
+[14.390408] (-) TimerEvent: {}
+[14.490871] (-) TimerEvent: {}
+[14.509824] (rdk) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Mda.cpp.o\x1b[0m\n'}
+[14.553155] (rdk) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Mem.c.o\x1b[0m\n'}
+[14.564659] (rdk) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Util.c.o\x1b[0m\n'}
+[14.591512] (-) TimerEvent: {}
+[14.598752] (rdk) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Uuid.c.o\x1b[0m\n'}
+[14.601601] (rdk) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Vector.c.o\x1b[0m\n'}
+[14.615567] (rdk) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Version.c.o\x1b[0m\n'}
+[14.659285] (rdk) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_DeviceTraits.cpp.o\x1b[0m\n'}
+[14.660577] (rdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_ErrorCodes.cpp.o\x1b[0m\n'}
+[14.691655] (-) TimerEvent: {}
+[14.747901] (rdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_HwTest.cpp.o\x1b[0m\n'}
+[14.791794] (-) TimerEvent: {}
+[14.892267] (-) TimerEvent: {}
+[14.995591] (-) TimerEvent: {}
+[15.028773] (rdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_ParameterExtractor.cpp.o\x1b[0m\n'}
+[15.086822] (rdk) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_RegisterSet.cpp.o\x1b[0m\n'}
+[15.095719] (-) TimerEvent: {}
+[15.100091] (rdk) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_SensorMeter.cpp.o\x1b[0m\n'}
+[15.195864] (-) TimerEvent: {}
+[15.297379] (-) TimerEvent: {}
+[15.350607] (rdk) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_base.so\x1b[0m\n'}
+[15.400377] (-) TimerEvent: {}
+[15.445861] (rdk) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_StrataUtilities.cpp.o\x1b[0m\n'}
+[15.500518] (-) TimerEvent: {}
+[15.518415] (rdk) StdoutLine: {'line': b'[ 68%] Built target sdk_base\n'}
+[15.523137] (rdk) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_Utilities.cpp.o\x1b[0m\n'}
+[15.600671] (-) TimerEvent: {}
+[15.701131] (-) TimerEvent: {}
+[15.801586] (-) TimerEvent: {}
+[15.868447] (rdk) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ports/ifxAvian_DummyPort.cpp.o\x1b[0m\n'}
+[15.885559] (rdk) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/2DMTI.c.o\x1b[0m\n'}
+[15.901725] (-) TimerEvent: {}
+[15.993398] (rdk) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/DBSCAN.c.o\x1b[0m\n'}
+[16.001872] (-) TimerEvent: {}
+[16.100993] (rdk) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/FFT.c.o\x1b[0m\n'}
+[16.101995] (-) TimerEvent: {}
+[16.146845] (rdk) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ports/ifxAvian_StrataPort.cpp.o\x1b[0m\n'}
+[16.163149] (rdk) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/MTI.c.o\x1b[0m\n'}
+[16.166334] (rdk) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/OSCFAR.c.o\x1b[0m\n'}
+[16.203368] (-) TimerEvent: {}
+[16.222743] (rdk) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/ModelBGT60TR11D.cpp.o\x1b[0m\n'}
+[16.250309] (rdk) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/PreprocessedFFT.c.o\x1b[0m\n'}
+[16.274445] (rdk) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/Signal.c.o\x1b[0m\n'}
+[16.305371] (-) TimerEvent: {}
+[16.325845] (rdk) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/Window.c.o\x1b[0m\n'}
+[16.364642] (rdk) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/ModelBGT60TRxxC.cpp.o\x1b[0m\n'}
+[16.371495] (rdk) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/ModelBGT60TRxxD.cpp.o\x1b[0m\n'}
+[16.405502] (-) TimerEvent: {}
+[16.432778] (rdk) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/SequenceParameters.cpp.o\x1b[0m\n'}
+[16.471398] (rdk) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/StateSequence.cpp.o\x1b[0m\n'}
+[16.505648] (-) TimerEvent: {}
+[16.526773] (rdk) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_algo.so\x1b[0m\n'}
+[16.605805] (-) TimerEvent: {}
+[16.637442] (rdk) StdoutLine: {'line': b'[ 76%] Built target sdk_algo\n'}
+[16.644112] (rdk) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/value_conversion/ifxAvian_RfConversion.cpp.o\x1b[0m\n'}
+[16.705953] (-) TimerEvent: {}
+[16.806543] (-) TimerEvent: {}
+[16.907154] (-) TimerEvent: {}
+[16.969209] (rdk) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/value_conversion/ifxAvian_TimingConversion.cpp.o\x1b[0m\n'}
+[17.007316] (-) TimerEvent: {}
+[17.107906] (-) TimerEvent: {}
+[17.208373] (-) TimerEvent: {}
+[17.308802] (-) TimerEvent: {}
+[17.409210] (-) TimerEvent: {}
+[17.509651] (-) TimerEvent: {}
+[17.610035] (-) TimerEvent: {}
+[17.710423] (-) TimerEvent: {}
+[17.810782] (-) TimerEvent: {}
+[17.911140] (-) TimerEvent: {}
+[17.916036] (rdk) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library ../../bin/lib/liblib_avian.so\x1b[0m\n'}
+[18.011335] (-) TimerEvent: {}
+[18.041210] (rdk) StdoutLine: {'line': b'[ 77%] Built target lib_avian\n'}
+[18.051730] (rdk) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object sdk/c/ifxRadarDeviceCommon/CMakeFiles/sdk_radar_device_common.dir/RadarDeviceCommon.cpp.o\x1b[0m\n'}
+[18.111491] (-) TimerEvent: {}
+[18.211826] (-) TimerEvent: {}
+[18.312165] (-) TimerEvent: {}
+[18.412523] (-) TimerEvent: {}
+[18.512864] (-) TimerEvent: {}
+[18.613161] (-) TimerEvent: {}
+[18.698827] (rdk) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_radar_device_common.so\x1b[0m\n'}
+[18.713303] (-) TimerEvent: {}
+[18.797897] (rdk) StdoutLine: {'line': b'[ 77%] Built target sdk_radar_device_common\n'}
+[18.809700] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11Impl.cpp.o\x1b[0m\n'}
+[18.809941] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcwTypes.c.o\x1b[0m\n'}
+[18.810057] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/DeviceCwTypes.c.o\x1b[0m\n'}
+[18.810147] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/DeviceCwBase.cpp.o\x1b[0m\n'}
+[18.810239] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimose.cpp.o\x1b[0m\n'}
+[18.810353] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11.cpp.o\x1b[0m\n'}
+[18.810439] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcw.cpp.o\x1b[0m\n'}
+[18.810525] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/DeviceCw.cpp.o\x1b[0m\n'}
+[18.813428] (-) TimerEvent: {}
+[18.842483] (rdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/avian/DeviceCwAvian.cpp.o\x1b[0m\n'}
+[18.855932] (rdk) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11Base.cpp.o\x1b[0m\n'}
+[18.916360] (-) TimerEvent: {}
+[19.016779] (-) TimerEvent: {}
+[19.117206] (-) TimerEvent: {}
+[19.217672] (-) TimerEvent: {}
+[19.318127] (-) TimerEvent: {}
+[19.418588] (-) TimerEvent: {}
+[19.519058] (-) TimerEvent: {}
+[19.521571] (rdk) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11Dummy.cpp.o\x1b[0m\n'}
+[19.619205] (-) TimerEvent: {}
+[19.686886] (rdk) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11RegisterConfigurator.cpp.o\x1b[0m\n'}
+[19.719370] (-) TimerEvent: {}
+[19.822523] (-) TimerEvent: {}
+[19.902728] (rdk) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcwBase.cpp.o\x1b[0m\n'}
+[19.922661] (-) TimerEvent: {}
+[20.000604] (rdk) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcwCWrapper.cpp.o\x1b[0m\n'}
+[20.022802] (-) TimerEvent: {}
+[20.123260] (-) TimerEvent: {}
+[20.223701] (-) TimerEvent: {}
+[20.326373] (-) TimerEvent: {}
+[20.345686] (rdk) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/MetricsFmcw.cpp.o\x1b[0m\n'}
+[20.426504] (-) TimerEvent: {}
+[20.526940] (-) TimerEvent: {}
+[20.607356] (rdk) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseImpl.cpp.o\x1b[0m\n'}
+[20.630366] (-) TimerEvent: {}
+[20.636978] (rdk) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/avian/DeviceFmcwAvian.cpp.o\x1b[0m\n'}
+[20.730446] (rdk) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseBase.cpp.o\x1b[0m\n'}
+[20.730719] (-) TimerEvent: {}
+[20.831077] (-) TimerEvent: {}
+[20.885293] (rdk) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseDummy.cpp.o\x1b[0m\n'}
+[20.931223] (-) TimerEvent: {}
+[20.989832] (rdk) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_ltr11.so\x1b[0m\n'}
+[21.031369] (-) TimerEvent: {}
+[21.131836] (-) TimerEvent: {}
+[21.196266] (rdk) StdoutLine: {'line': b'[ 84%] Built target sdk_ltr11\n'}
+[21.205641] (rdk) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseRegisterConfigurator.cpp.o\x1b[0m\n'}
+[21.231982] (-) TimerEvent: {}
+[21.332454] (-) TimerEvent: {}
+[21.432938] (-) TimerEvent: {}
+[21.535517] (-) TimerEvent: {}
+[21.635988] (-) TimerEvent: {}
+[21.736435] (-) TimerEvent: {}
+[21.836845] (-) TimerEvent: {}
+[21.917663] (rdk) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_cw.so\x1b[0m\n'}
+[21.936991] (-) TimerEvent: {}
+[22.037449] (-) TimerEvent: {}
+[22.106700] (rdk) StdoutLine: {'line': b'[ 86%] Built target sdk_cw\n'}
+[22.137589] (-) TimerEvent: {}
+[22.237959] (-) TimerEvent: {}
+[22.338360] (-) TimerEvent: {}
+[22.438756] (-) TimerEvent: {}
+[22.539148] (-) TimerEvent: {}
+[22.639547] (-) TimerEvent: {}
+[22.739921] (-) TimerEvent: {}
+[22.777868] (rdk) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_mimose.so\x1b[0m\n'}
+[22.840063] (-) TimerEvent: {}
+[22.932015] (rdk) StdoutLine: {'line': b'[ 86%] Built target sdk_mimose\n'}
+[22.940190] (-) TimerEvent: {}
+[23.040551] (-) TimerEvent: {}
+[23.140895] (-) TimerEvent: {}
+[23.150870] (rdk) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_fmcw.so\x1b[0m\n'}
+[23.241043] (-) TimerEvent: {}
+[23.299697] (rdk) StdoutLine: {'line': b'[ 86%] Built target sdk_fmcw\n'}
+[23.309449] (rdk) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object examples/c/BGT60TR13C/raw_data/CMakeFiles/BGT60TR13C_raw_data_fmcw.dir/raw_data.c.o\x1b[0m\n'}
+[23.309674] (rdk) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object sdk/c/ifxAvian/CMakeFiles/sdk_avian.dir/DeviceConfig.cpp.o\x1b[0m\n'}
+[23.309778] (rdk) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object sdk/c/ifxAvian/CMakeFiles/sdk_avian.dir/Metrics.cpp.o\x1b[0m\n'}
+[23.309840] (rdk) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object sdk/c/ifxAvian/CMakeFiles/sdk_avian.dir/DeviceControl.cpp.o\x1b[0m\n'}
+[23.341183] (-) TimerEvent: {}
+[23.357873] (rdk) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/BGT60TR13C_raw_data_fmcw\x1b[0m\n'}
+[23.441351] (-) TimerEvent: {}
+[23.481013] (rdk) StdoutLine: {'line': b'[ 89%] Built target BGT60TR13C_raw_data_fmcw\n'}
+[23.541506] (-) TimerEvent: {}
+[23.641857] (-) TimerEvent: {}
+[23.742187] (-) TimerEvent: {}
+[23.842531] (-) TimerEvent: {}
+[23.942863] (-) TimerEvent: {}
+[24.043170] (-) TimerEvent: {}
+[24.143511] (-) TimerEvent: {}
+[24.243822] (-) TimerEvent: {}
+[24.247474] (rdk) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_avian.so\x1b[0m\n'}
+[24.327784] (rdk) StdoutLine: {'line': b'[ 89%] Built target sdk_avian\n'}
+[24.339314] (rdk) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/AngleMonopulse.c.o\x1b[0m\n'}
+[24.339568] (rdk) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/AngleCapon.c.o\x1b[0m\n'}
+[24.339693] (rdk) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/DBF.c.o\x1b[0m\n'}
+[24.339821] (rdk) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/DeInterleaver.cpp.o\x1b[0m\n'}
+[24.339931] (rdk) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/PeakSearch.c.o\x1b[0m\n'}
+[24.340084] (rdk) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/RangeAngleImage.c.o\x1b[0m\n'}
+[24.340156] (rdk) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/RangeDopplerMap.c.o\x1b[0m\n'}
+[24.340236] (rdk) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/RangeSpectrum.c.o\x1b[0m\n'}
+[24.344369] (-) TimerEvent: {}
+[24.395939] (rdk) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/SpectrumAxis.cpp.o\x1b[0m\n'}
+[24.407050] (rdk) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/DopplerSpectrogram.c.o\x1b[0m\n'}
+[24.444497] (-) TimerEvent: {}
+[24.544842] (-) TimerEvent: {}
+[24.645143] (-) TimerEvent: {}
+[24.745513] (-) TimerEvent: {}
+[24.800455] (rdk) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/lib/libsdk_radar.so\x1b[0m\n'}
+[24.845658] (-) TimerEvent: {}
+[24.891593] (rdk) StdoutLine: {'line': b'[ 94%] Built target sdk_radar\n'}
+[24.901256] (rdk) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object examples/c/common/CMakeFiles/examples_common.dir/common.c.o\x1b[0m\n'}
+[24.901505] (rdk) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object examples/c/common/CMakeFiles/examples_common.dir/time_formatter.c.o\x1b[0m\n'}
+[24.901608] (rdk) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object examples/c/common/CMakeFiles/examples_common.dir/json.cpp.o\x1b[0m\n'}
+[24.901681] (rdk) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object examples/c/common/CMakeFiles/examples_common.dir/util.c.o\x1b[0m\n'}
+[24.945796] (-) TimerEvent: {}
+[25.046130] (-) TimerEvent: {}
+[25.146474] (-) TimerEvent: {}
+[25.246810] (-) TimerEvent: {}
+[25.347159] (-) TimerEvent: {}
+[25.447518] (-) TimerEvent: {}
+[25.547845] (-) TimerEvent: {}
+[25.648190] (-) TimerEvent: {}
+[25.748547] (-) TimerEvent: {}
+[25.848914] (-) TimerEvent: {}
+[25.949279] (-) TimerEvent: {}
+[26.049611] (-) TimerEvent: {}
+[26.149940] (-) TimerEvent: {}
+[26.250281] (-) TimerEvent: {}
+[26.350573] (-) TimerEvent: {}
+[26.450915] (-) TimerEvent: {}
+[26.551250] (-) TimerEvent: {}
+[26.651596] (-) TimerEvent: {}
+[26.751945] (-) TimerEvent: {}
+[26.852285] (-) TimerEvent: {}
+[26.952627] (-) TimerEvent: {}
+[27.052967] (-) TimerEvent: {}
+[27.153322] (-) TimerEvent: {}
+[27.253664] (-) TimerEvent: {}
+[27.353995] (-) TimerEvent: {}
+[27.454336] (-) TimerEvent: {}
+[27.554669] (-) TimerEvent: {}
+[27.655002] (-) TimerEvent: {}
+[27.755338] (-) TimerEvent: {}
+[27.855700] (-) TimerEvent: {}
+[27.956032] (-) TimerEvent: {}
+[28.056371] (-) TimerEvent: {}
+[28.156701] (-) TimerEvent: {}
+[28.257046] (-) TimerEvent: {}
+[28.333887] (rdk) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX static library ../../../bin/lib/libexamples_common.a\x1b[0m\n'}
+[28.357195] (-) TimerEvent: {}
+[28.413713] (rdk) StdoutLine: {'line': b'[ 96%] Built target examples_common\n'}
+[28.423728] (rdk) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object examples/c/BGT60TR13C/continuous_wave/CMakeFiles/BGT60TR13C_continuous_wave.dir/continuous_wave.c.o\x1b[0m\n'}
+[28.423993] (rdk) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object examples/c/BGT60TR13C/motion_angle/CMakeFiles/BGT60TR13C_motion_angle.dir/motion_angle.c.o\x1b[0m\n'}
+[28.424132] (rdk) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object examples/c/BGT60TR13C/range_doppler_map/CMakeFiles/BGT60TR13C_range_doppler_map.dir/range_doppler_map.c.o\x1b[0m\n'}
+[28.424281] (rdk) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object examples/c/BGT60TR13C/presence_detection/CMakeFiles/BGT60TR13C_presence_detection.dir/presence_detection.c.o\x1b[0m\n'}
+[28.426917] (rdk) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object examples/c/BGT60TR13C/segmentation/CMakeFiles/BGT60TR13C_segmentation.dir/segmentation.c.o\x1b[0m\n'}
+[28.457328] (-) TimerEvent: {}
+[28.459331] (rdk) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/BGT60TR13C_presence_detection\x1b[0m\n'}
+[28.466608] (rdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/BGT60TR13C_range_doppler_map\x1b[0m\n'}
+[28.470025] (rdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/BGT60TR13C_segmentation\x1b[0m\n'}
+[28.480419] (rdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/BGT60TR13C_motion_angle\x1b[0m\n'}
+[28.492054] (rdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/BGT60TR13C_continuous_wave\x1b[0m\n'}
+[28.557545] (-) TimerEvent: {}
+[28.658146] (-) TimerEvent: {}
+[28.729843] (rdk) StdoutLine: {'line': b'[100%] Built target BGT60TR13C_range_doppler_map\n'}
+[28.749029] (rdk) StdoutLine: {'line': b'[100%] Built target BGT60TR13C_motion_angle\n'}
+[28.758311] (-) TimerEvent: {}
+[28.771012] (rdk) StdoutLine: {'line': b'[100%] Built target BGT60TR13C_continuous_wave\n'}
+[28.804584] (rdk) StdoutLine: {'line': b'[100%] Built target BGT60TR13C_presence_detection\n'}
+[28.809315] (rdk) StdoutLine: {'line': b'[100%] Built target BGT60TR13C_segmentation\n'}
+[28.816338] (rdk) CommandEnded: {'returncode': 0}
+[28.817568] (rdk) JobProgress: {'identifier': 'rdk', 'progress': 'install'}
+[28.821922] (rdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/juhun/capstone_ws/build/rdk'], 'cwd': '/home/juhun/capstone_ws/build/rdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'juhun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/juhun/capstone_radar/ws_sdk/libs/linux_x64:'), ('HOME', '/home/juhun'), ('CYCLONEDDS_URI', ''), ('OLDPWD', '/home/juhun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1543'), ('SYSTEMD_EXEC_PID', '2188'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22502'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/juhun/capstone_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'juhun'), ('JOURNAL_STREAM', '8:18037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juhun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/juhun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juhun-930QCG:@/tmp/.ICE-unix/1860,unix/juhun-930QCG:/tmp/.ICE-unix/1860'), ('INVOCATION_ID', '7c42d44215964b5e81206777dc1e9d86'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IAST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/juhun/capstone_ws/install/radar_sdk_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:80ec2d92-9d0b-48f6-b4a7-d4f4b2750969'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juhun/capstone_ws/build/rdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/juhun/capstone_ws/radar_sdk/sdk/py/wrapper_radarsdk/build/lib:'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[28.825285] (rdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.828504] (rdk) CommandEnded: {'returncode': 0}
+[28.832553] (rdk) JobEnded: {'identifier': 'rdk', 'rc': 0}
+[28.833323] (-) EventReactorShutdown: {}

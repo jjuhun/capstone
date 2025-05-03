@@ -1,0 +1,8 @@
+[console_scripts]
+campub = radar_sdk_ros.campub:main
+camsub = radar_sdk_ros.camsub:main
+radar_pub = radar_sdk_ros.radar_pub:main
+radar_pub_limit = radar_sdk_ros.radar_pub_limit:main
+radar_spectrogram = radar_sdk_ros.real_time_radar_sub
+radar_sub = radar_sdk_ros.radar_sub:main
+

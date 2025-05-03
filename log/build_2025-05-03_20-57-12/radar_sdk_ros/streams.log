@@ -1,0 +1,74 @@
+[0.608s] Invoking command in '/home/juhun/capstone_ws/src/radar_sdk_ros': PYTHONPATH=/home/juhun/capstone_ws/build/radar_sdk_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/radar_sdk_ros build --build-base /home/juhun/capstone_ws/build/radar_sdk_ros/build install --record /home/juhun/capstone_ws/build/radar_sdk_ros/install.log --single-version-externally-managed install_data
+[0.833s] running egg_info
+[0.834s] creating ../../build/radar_sdk_ros/radar_sdk_ros.egg-info
+[0.834s] writing ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/PKG-INFO
+[0.834s] writing dependency_links to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/dependency_links.txt
+[0.834s] writing entry points to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/entry_points.txt
+[0.834s] writing requirements to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/requires.txt
+[0.834s] writing top-level names to ../../build/radar_sdk_ros/radar_sdk_ros.egg-info/top_level.txt
+[0.834s] writing manifest file '../../build/radar_sdk_ros/radar_sdk_ros.egg-info/SOURCES.txt'
+[0.836s] reading manifest file '../../build/radar_sdk_ros/radar_sdk_ros.egg-info/SOURCES.txt'
+[0.837s] writing manifest file '../../build/radar_sdk_ros/radar_sdk_ros.egg-info/SOURCES.txt'
+[0.837s] running build
+[0.837s] running build_py
+[0.838s] creating /home/juhun/capstone_ws/build/radar_sdk_ros/build
+[0.838s] creating /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib
+[0.838s] creating /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/campub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/break_limit_data_save.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/radar_sub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/normalized.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/real_time_radar.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/radar_pub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/real_time_radar_sub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.838s] copying radar_sdk_ros/cam_and_radar.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.839s] copying radar_sdk_ros/cam.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.839s] copying radar_sdk_ros/break_limit_data.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.839s] copying radar_sdk_ros/normalized_antenna_copy.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.839s] copying radar_sdk_ros/exmple_ros.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.839s] copying radar_sdk_ros/__init__.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.839s] copying radar_sdk_ros/camsub.py -> /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros
+[0.839s] running install
+[0.840s] running install_lib
+[0.841s] creating /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.841s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/campub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.841s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/break_limit_data_save.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.841s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/radar_sub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/normalized.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/real_time_radar.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/radar_pub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/real_time_radar_sub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/cam_and_radar.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/cam.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/break_limit_data.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/normalized_antenna_copy.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/exmple_ros.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/__init__.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.842s] copying /home/juhun/capstone_ws/build/radar_sdk_ros/build/lib/radar_sdk_ros/camsub.py -> /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros
+[0.843s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/campub.py to campub.cpython-310.pyc
+[0.843s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/break_limit_data_save.py to break_limit_data_save.cpython-310.pyc
+[0.844s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/radar_sub.py to radar_sub.cpython-310.pyc
+[0.844s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/normalized.py to normalized.cpython-310.pyc
+[0.845s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/real_time_radar.py to real_time_radar.cpython-310.pyc
+[0.846s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/radar_pub.py to radar_pub.cpython-310.pyc
+[0.847s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/real_time_radar_sub.py to real_time_radar_sub.cpython-310.pyc
+[0.847s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/cam_and_radar.py to cam_and_radar.cpython-310.pyc
+[0.848s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/cam.py to cam.cpython-310.pyc
+[0.848s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/break_limit_data.py to break_limit_data.cpython-310.pyc
+[0.849s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/normalized_antenna_copy.py to normalized_antenna_copy.cpython-310.pyc
+[0.850s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/exmple_ros.py to exmple_ros.cpython-310.pyc
+[0.850s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/__init__.py to __init__.cpython-310.pyc
+[0.850s] byte-compiling /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros/camsub.py to camsub.cpython-310.pyc
+[0.850s] running install_data
+[0.850s] copying package.xml -> /home/juhun/capstone_ws/install/radar_sdk_ros/share/radar_sdk_ros
+[0.850s] running install_egg_info
+[0.852s] Copying ../../build/radar_sdk_ros/radar_sdk_ros.egg-info to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages/radar_sdk_ros-0.0.1-py3.10.egg-info
+[0.853s] running install_scripts
+[0.872s] Installing campub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros
+[0.872s] Installing camsub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros
+[0.872s] Installing radar_pub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros
+[0.872s] Installing radar_pub_limit script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros
+[0.872s] Installing radar_spectrogram script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros
+[0.872s] Installing radar_sub script to /home/juhun/capstone_ws/install/radar_sdk_ros/lib/radar_sdk_ros
+[0.872s] writing list of installed files to '/home/juhun/capstone_ws/build/radar_sdk_ros/install.log'
+[0.900s] Invoked command in '/home/juhun/capstone_ws/src/radar_sdk_ros' returned '0': PYTHONPATH=/home/juhun/capstone_ws/build/radar_sdk_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juhun/capstone_ws/install/radar_sdk_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/radar_sdk_ros build --build-base /home/juhun/capstone_ws/build/radar_sdk_ros/build install --record /home/juhun/capstone_ws/build/radar_sdk_ros/install.log --single-version-externally-managed install_data

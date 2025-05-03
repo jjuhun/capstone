@@ -1,0 +1,6 @@
+Invoking command in '/home/juhun/capstone_ws/build/rdk': /usr/bin/cmake /home/juhun/capstone_ws/src/radar_sdk -DCMAKE_INSTALL_PREFIX=/home/juhun/capstone_ws/install/rdk
+Invoked command in '/home/juhun/capstone_ws/build/rdk' returned '0': /usr/bin/cmake /home/juhun/capstone_ws/src/radar_sdk -DCMAKE_INSTALL_PREFIX=/home/juhun/capstone_ws/install/rdk
+Invoking command in '/home/juhun/capstone_ws/build/rdk': /usr/bin/cmake --build /home/juhun/capstone_ws/build/rdk -- -j8 -l8
+Invoked command in '/home/juhun/capstone_ws/build/rdk' returned '0': /usr/bin/cmake --build /home/juhun/capstone_ws/build/rdk -- -j8 -l8
+Invoking command in '/home/juhun/capstone_ws/build/rdk': /usr/bin/cmake --install /home/juhun/capstone_ws/build/rdk
+Invoked command in '/home/juhun/capstone_ws/build/rdk' returned '0': /usr/bin/cmake --install /home/juhun/capstone_ws/build/rdk

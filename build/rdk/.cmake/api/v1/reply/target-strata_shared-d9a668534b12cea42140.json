@@ -1,0 +1,1162 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/lib/libstrata_shared.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_link_options",
+			"include",
+			"target_link_libraries",
+			"target_link_libraries_helper",
+			"add_compile_options",
+			"add_definitions",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"external/strata/library/CMakeLists.txt",
+			"cmake/build_settings.cmake",
+			"CMakeLists.txt",
+			"external/strata/contrib/pugixml/CMakeLists.txt",
+			"external/strata/cmake/Helper.cmake",
+			"external/strata/Strata.cmake",
+			"external/strata/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 157,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 115,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 5
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 28,
+				"parent" : 13
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 34,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 111,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 107,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 100,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wsuggest-override -std=gnu++11 -fPIC"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wno-psabi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 16,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "SDK_COMMIT_HASH=\"db5a340\""
+				},
+				{
+					"backtrace" : 19,
+					"define" : "SDK_VERSION=\"3.6.4\""
+				},
+				{
+					"backtrace" : 20,
+					"define" : "SDK_VERSION_FULL=\"3.6.4+db5a340\""
+				},
+				{
+					"backtrace" : 21,
+					"define" : "STRATA_EXPORT"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "STRATA_VERSION_BUILD=0"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "STRATA_VERSION_MAJOR=2"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "STRATA_VERSION_MINOR=3"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "STRATA_VERSION_PATCH=1"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "TARGET_PLATFORM_LINUX"
+				},
+				{
+					"define" : "strata_shared_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "/home/juhun/capstone_ws/src/radar_sdk/external/strata/library"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/juhun/capstone_ws/src/radar_sdk/external/strata/library/platform/impl/Linux"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/juhun/capstone_ws/src/radar_sdk/external/strata/contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/juhun/capstone_ws/src/radar_sdk/external/strata/contrib/pugixml/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "pugixml-static::@16e3eca51e18ac322646"
+		},
+		{
+			"id" : "strata_library::@af46ec4be38e64d587b3"
+		},
+		{
+			"id" : "strata_boards::@af46ec4be38e64d587b3"
+		},
+		{
+			"id" : "strata_version::@af46ec4be38e64d587b3"
+		},
+		{
+			"id" : "common::@185e4708e1de856dc322"
+		},
+		{
+			"id" : "components::@5376f3487d70facbc5fe"
+		},
+		{
+			"id" : "platform::@a53253ec8d109bba1f48"
+		},
+		{
+			"id" : "remote::@3b37b834d34e28fd8119"
+		},
+		{
+			"id" : "universal::@1112eed96245bb019dff"
+		}
+	],
+	"id" : "strata_shared::@af46ec4be38e64d587b3",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "/home/juhun/capstone_ws/src/radar_sdk/external/strata/bin/Linux/x64"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "/home/juhun/capstone_ws/src/radar_sdk/external/strata/bin/Linux/x64"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/juhun/capstone_ws/install/rdk"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--fatal-warnings",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "../../../bin/lib/libpugixml.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "strata_shared",
+	"nameOnDisk" : "libstrata_shared.so",
+	"paths" : 
+	{
+		"build" : "external/strata/library",
+		"source" : "external/strata/library"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/strata/library/Dummy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/CMakeFiles/strata_boards.dir/BoardList.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 26,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/CMakeFiles/strata_version.dir/Version.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/CMakeFiles/strata_library.dir/Library.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/crc/Crc6.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/crc/Crc8.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/crc/Crc16.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/crc/Crc32.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/endian/LittleEndianReader.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/Logger.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/Profiler.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/common/CMakeFiles/common.dir/ProductVersion.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/FlashImage.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/Registers8bitPec.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs11x5.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs16x5.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/imager/PinsIrs.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/imager/RegistersIrs.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/powerSupply/PowerSupplyMax2043xPec.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/powerSupply/SupplyMonitorIna231.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/radar/TypeSerialization.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemory.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryEepromI2c.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlash.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlashSpi.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/temperature/TemperatureSensorTMP102.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/temperature/TemperatureSensorMCP98x43.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 29,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/components/CMakeFiles/components.dir/processing/ProcessingRadar.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/BoardAny.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/BoardDescriptor.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/BoardInstance.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/BoardManager.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/NamedMemory.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/Memory.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeControl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeData.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocol.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolI2c.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolGpio.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolSpi.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolMemory.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolFlash.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolData.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeWrapperBase.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/bridge/VendorCommandsImpl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernet.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetControl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetData.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetTcp.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetUdp.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/EnumeratorEthernet.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetTcp.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetUdp.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardDescriptorEthernet.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketTcp.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketUdp.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/fpga/BridgeFpgaIrpli.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/DebugFrame.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/ErrorFrame.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/Frame.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameBase.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameForwarder.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/FramePool.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameQueue.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameHelper.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/macro/BoardInstanceMacro.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/macro/BridgeMacro.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/serial/SerialPort.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/serial/BridgeSerial.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/serial/BoardSerial.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/uvc/BoardUvc.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionCypress.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtek.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekFlash.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekI2c.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/boards/Board.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardGeneric.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardRemote.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/serial/SerialPortImpl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/serial/EnumeratorSerialImpl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/EnumeratorV4l2.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/BridgeV4l2.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/FrameV4l2.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/FramePoolV4l2.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketImpl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketTcpImpl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketUdpImpl.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/serial/SerialPortImplBase.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/serial/EnumeratorSerialImplBase.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteGasBoyle.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolAtr22.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolAvian.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolLtr11.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolSmartar.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsAvian.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsLtr11.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsSmartar.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteProcessingRadar.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteRegisters.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarAvian.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarAtr22.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarLtr11.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarSmartar.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/remote/CMakeFiles/remote.dir/RemoteVendorCommands.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"isGenerated" : true,
+			"path" : "/home/juhun/capstone_ws/build/rdk/external/strata/library/universal/CMakeFiles/universal.dir/error_strings.c.o",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

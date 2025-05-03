@@ -20,9 +20,10 @@ setup(
         'console_scripts': [
 		    'campub = radar_sdk_ros.campub:main',  # 퍼블리셔 campub
  	        'camsub = radar_sdk_ros.camsub:main',  # 서브스크라이버 camsub
-            'normalized_antenna = radar_sdk_ros.normalized_antenna:main',
-            'break_limit_data = radar_sdk_ros.break_limit_data:main',
+            'radar_pub_limit = radar_sdk_ros.radar_pub_limit:main',
+            'radar_pub = radar_sdk_ros.radar_pub:main',
             'radar_sub = radar_sdk_ros.radar_sub:main',
+            'radar_spectrogram = radar_sdk_ros.real_time_radar_sub'
         ],
     },
 )

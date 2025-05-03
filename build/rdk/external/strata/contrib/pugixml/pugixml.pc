@@ -1,0 +1,11 @@
+prefix=/home/juhun/capstone_ws/install/rdk
+exec_prefix=${prefix}
+includedir=/home/juhun/capstone_ws/install/rdk/include
+libdir=/home/juhun/capstone_ws/install/rdk/lib
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: https://pugixml.org/
+Version: 1.13
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpugixml

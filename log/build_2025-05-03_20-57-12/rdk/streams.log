@@ -1,0 +1,457 @@
+[0.240s] Invoking command in '/home/juhun/capstone_ws/build/rdk': /usr/bin/cmake /home/juhun/capstone_ws/src/radar_sdk -DCMAKE_INSTALL_PREFIX=/home/juhun/capstone_ws/install/rdk
+[0.284s] -- The C compiler identification is GNU 11.4.0
+[0.336s] -- The CXX compiler identification is GNU 11.4.0
+[0.347s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.440s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.525s] -- Detecting CXX compile features - done
+[0.531s] -- SDK version: 3.6.4
+[0.536s] [0mCMake Deprecation Warning at 3rd_party/libs/argparse/CMakeLists.txt:1 (cmake_minimum_required):
+[0.536s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.536s]   CMake.
+[0.536s] 
+[0.536s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.536s]   to tell CMake that the project requires at least <min> but has been updated
+[0.536s]   to work with policies introduced by <max> or earlier.
+[0.536s] 
+[0.536s] [0m
+[0.536s] [0mCMake Deprecation Warning at 3rd_party/libs/muFFT/CMakeLists.txt:1 (cmake_minimum_required):
+[0.536s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.537s]   CMake.
+[0.537s] 
+[0.537s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.537s]   to tell CMake that the project requires at least <min> but has been updated
+[0.537s]   to work with policies introduced by <max> or earlier.
+[0.537s] 
+[0.537s] [0m
+[0.537s] [0mProcessor: x86_64[0m
+[0.537s] [0mEnabling x86 SIMD support.[0m
+[0.538s] [0mCMake Deprecation Warning at external/strata/CMakeLists.txt:26 (cmake_minimum_required):
+[0.538s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.538s]   CMake.
+[0.538s] 
+[0.538s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.538s]   to tell CMake that the project requires at least <min> but has been updated
+[0.538s]   to work with policies introduced by <max> or earlier.
+[0.538s] 
+[0.538s] [0m
+[0.539s] -- Strata directory: /home/juhun/capstone_ws/src/radar_sdk/external/strata
+[0.539s] -- Strata version: 2.3.1.0
+[0.539s] -- Strata target architecture/platform: x86 64bit Linux
+[0.541s] [0mCMake Deprecation Warning at external/strata/contrib/pugixml/CMakeLists.txt:1 (cmake_minimum_required):
+[0.541s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.541s]   CMake.
+[0.541s] 
+[0.541s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.541s]   to tell CMake that the project requires at least <min> but has been updated
+[0.541s]   to work with policies introduced by <max> or earlier.
+[0.541s] 
+[0.541s] [0m
+[0.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.615s] -- Found Threads: TRUE
+[0.625s] -- Lib Avian includes StrataPort.
+[0.628s] -- Looking for sqrt in m
+[0.691s] -- Looking for sqrt in m - found
+[1.204s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter
+[1.352s] <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[1.369s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:50 (add_custom_command):
+[1.369s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.369s]   POST_BUILD to preserve backward compatibility.
+[1.369s] 
+[1.369s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.369s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.369s]   command to set the policy and suppress this warning.
+[1.369s] Call Stack (most recent call first):
+[1.369s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.370s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.370s] [0m
+[1.370s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.370s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.370s]   POST_BUILD to preserve backward compatibility.
+[1.370s] 
+[1.370s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.370s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.370s]   command to set the policy and suppress this warning.
+[1.370s] Call Stack (most recent call first):
+[1.370s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.370s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.370s] [0m
+[1.370s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.370s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.370s]   POST_BUILD to preserve backward compatibility.
+[1.371s] 
+[1.371s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.371s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.371s]   command to set the policy and suppress this warning.
+[1.371s] Call Stack (most recent call first):
+[1.371s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.371s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.371s] [0m
+[1.371s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.371s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.371s]   POST_BUILD to preserve backward compatibility.
+[1.371s] 
+[1.371s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.371s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.371s]   command to set the policy and suppress this warning.
+[1.371s] Call Stack (most recent call first):
+[1.371s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.371s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.371s] [0m
+[1.371s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.371s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.371s]   POST_BUILD to preserve backward compatibility.
+[1.371s] 
+[1.372s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.372s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.372s]   command to set the policy and suppress this warning.
+[1.372s] Call Stack (most recent call first):
+[1.372s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.372s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.372s] [0m
+[1.372s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.372s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.372s]   POST_BUILD to preserve backward compatibility.
+[1.372s] 
+[1.372s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.372s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.372s]   command to set the policy and suppress this warning.
+[1.372s] Call Stack (most recent call first):
+[1.372s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.372s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.372s] [0m
+[1.372s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.372s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.372s]   POST_BUILD to preserve backward compatibility.
+[1.372s] 
+[1.372s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.372s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.372s]   command to set the policy and suppress this warning.
+[1.373s] Call Stack (most recent call first):
+[1.373s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.373s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.373s] [0m
+[1.373s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.373s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.373s]   POST_BUILD to preserve backward compatibility.
+[1.373s] 
+[1.373s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.373s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.373s]   command to set the policy and suppress this warning.
+[1.373s] Call Stack (most recent call first):
+[1.373s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.373s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.373s] [0m
+[1.373s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.373s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.373s]   POST_BUILD to preserve backward compatibility.
+[1.373s] 
+[1.373s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.373s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.373s]   command to set the policy and suppress this warning.
+[1.373s] Call Stack (most recent call first):
+[1.373s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.374s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.374s] [0m
+[1.374s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:80 (add_custom_command):
+[1.374s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.374s]   POST_BUILD to preserve backward compatibility.
+[1.374s] 
+[1.374s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.374s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.374s]   command to set the policy and suppress this warning.
+[1.374s] Call Stack (most recent call first):
+[1.374s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.374s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.374s] [0m
+[1.374s] [33mCMake Warning (dev) at external/strata/cmake/wheels.cmake:86 (add_custom_command):
+[1.374s]   Exactly one of PRE_BUILD, PRE_LINK, or POST_BUILD must be given.  Assuming
+[1.374s]   POST_BUILD to preserve backward compatibility.
+[1.374s] 
+[1.374s]   Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+[1.374s]   Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+[1.374s]   command to set the policy and suppress this warning.
+[1.374s] Call Stack (most recent call first):
+[1.374s]   sdk/py/wrapper_radarsdk/CMakeLists.txt:22 (add_wheel)
+[1.374s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.374s] [0m
+[1.458s] -- Configuring done (1.2s)
+[1.571s] -- Generating done (0.1s)
+[1.599s] -- Build files have been written to: /home/juhun/capstone_ws/build/rdk
+[1.609s] Invoked command in '/home/juhun/capstone_ws/build/rdk' returned '0': /usr/bin/cmake /home/juhun/capstone_ws/src/radar_sdk -DCMAKE_INSTALL_PREFIX=/home/juhun/capstone_ws/install/rdk
+[1.610s] Invoking command in '/home/juhun/capstone_ws/build/rdk': /usr/bin/cmake --build /home/juhun/capstone_ws/build/rdk -- -j8 -l8
+[1.640s] [  2%] [32mBuilding CXX object external/strata/library/CMakeFiles/strata_library.dir/Library.cpp.o[0m
+[1.641s] [  2%] [32mBuilding CXX object external/strata/contrib/pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o[0m
+[1.641s] [  3%] [32mBuilding C object external/strata/library/universal/CMakeFiles/universal.dir/error_strings.c.o[0m
+[1.641s] [  3%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc6.cpp.o[0m
+[1.641s] [  3%] [32mBuilding CXX object external/strata/library/CMakeFiles/strata_version.dir/Version.cpp.o[0m
+[1.641s] [  3%] [32mBuilding CXX object external/strata/library/CMakeFiles/strata_boards.dir/BoardList.cpp.o[0m
+[1.641s] [  5%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/FlashImage.cpp.o[0m
+[1.641s] [  5%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteGasBoyle.cpp.o[0m
+[1.671s] [  6%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc8.cpp.o[0m
+[1.671s] [  6%] Built target strata_version
+[1.673s] [  6%] Built target universal
+[1.676s] [  6%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolAtr22.cpp.o[0m
+[1.680s] [  6%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc16.cpp.o[0m
+[1.700s] [  6%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolAvian.cpp.o[0m
+[1.804s] [  7%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/crc/Crc32.cpp.o[0m
+[1.850s] [  7%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/endian/LittleEndianReader.cpp.o[0m
+[1.860s] [  7%] Built target strata_library
+[1.868s] [  7%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/Logger.cpp.o[0m
+[1.989s] [  7%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/Registers8bitPec.cpp.o[0m
+[2.236s] [  8%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolLtr11.cpp.o[0m
+[2.291s] [  8%] [32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT-avx.dir/x86/kernel.avx.c.o[0m
+[2.323s] [  9%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/Profiler.cpp.o[0m
+[2.349s] [  9%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs.cpp.o[0m
+[2.562s] [ 10%] [32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT-sse.dir/x86/kernel.sse.c.o[0m
+[2.648s] [ 11%] [32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT-sse3.dir/x86/kernel.sse3.c.o[0m
+[2.734s] [ 11%] Built target strata_boards
+[2.739s] [ 11%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProtocolSmartar.cpp.o[0m
+[2.812s] [ 11%] [32m[1mLinking C static library ../../../bin/lib/libmuFFT-sse.a[0m
+[2.877s] [ 13%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs11x5.cpp.o[0m
+[2.888s] [ 13%] Built target muFFT-sse
+[2.894s] [ 13%] [32mBuilding CXX object external/strata/library/common/CMakeFiles/common.dir/ProductVersion.cpp.o[0m
+[2.913s] [ 13%] [32m[1mLinking C static library ../../../bin/lib/libmuFFT-sse3.a[0m
+[2.937s] [ 13%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/ImagerIrs16x5.cpp.o[0m
+[2.967s] [ 14%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsAvian.cpp.o[0m
+[2.976s] [ 14%] [32m[1mLinking C static library ../../../bin/lib/libmuFFT-avx.a[0m
+[2.996s] [ 14%] Built target muFFT-sse3
+[2.996s] [ 14%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsLtr11.cpp.o[0m
+[3.072s] [ 14%] Built target muFFT-avx
+[3.079s] [ 15%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/PinsIrs.cpp.o[0m
+[3.201s] [ 16%] [32mBuilding C object sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/COMPort_Unix.c.o[0m
+[3.322s] [ 16%] [32mBuilding C object sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/COMPort_Windows.c.o[0m
+[3.379s] [ 17%] [32mBuilding CXX object sdk/c/ifxComPort/CMakeFiles/sdk_comport_obj.dir/ComPort.cpp.o[0m
+[3.392s] [ 18%] [32mBuilding C object 3rd_party/libs/argparse/CMakeFiles/argparse.dir/argparse.c.o[0m
+[3.455s] [ 18%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/imager/RegistersIrs.cpp.o[0m
+[3.458s] [ 18%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/powerSupply/PowerSupplyMax2043xPec.cpp.o[0m
+[3.471s] [ 18%] Built target common
+[3.479s] [ 19%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/powerSupply/SupplyMonitorIna231.cpp.o[0m
+[3.493s] [ 19%] [32m[1mLinking C static library ../../../bin/lib/libargparse.a[0m
+[3.527s] [ 19%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemotePinsSmartar.cpp.o[0m
+[3.560s] [ 19%] [32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT.dir/fft.c.o[0m
+[3.572s] [ 19%] Built target argparse
+[3.580s] [ 20%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteProcessingRadar.cpp.o[0m
+[3.585s] [ 21%] [32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT.dir/kernel.c.o[0m
+[3.593s] [ 21%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRegisters.cpp.o[0m
+[3.694s] [ 21%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/radar/TypeSerialization.cpp.o[0m
+[3.764s] [ 21%] [32mBuilding C object 3rd_party/libs/muFFT/CMakeFiles/muFFT.dir/cpu.c.o[0m
+[3.833s] [ 22%] [32m[1mLinking C static library ../../../bin/lib/libmuFFT.a[0m
+[3.916s] [ 22%] Built target muFFT
+[3.924s] [ 23%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarAvian.cpp.o[0m
+[3.970s] [ 25%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemory.cpp.o[0m
+[3.982s] [ 25%] [32m[1mLinking CXX static library ../../../../bin/lib/libpugixml.a[0m
+[4.047s] [ 25%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryEepromI2c.cpp.o[0m
+[4.061s] [ 25%] Built target pugixml-static
+[4.069s] [ 25%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarAtr22.cpp.o[0m
+[4.153s] [ 25%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlash.cpp.o[0m
+[4.160s] [ 25%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardAny.cpp.o[0m
+[4.514s] [ 25%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarLtr11.cpp.o[0m
+[4.521s] [ 26%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/nonvolatileMemory/NonvolatileMemoryFlashSpi.cpp.o[0m
+[4.612s] [ 27%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardDescriptor.cpp.o[0m
+[4.612s] [ 27%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardInstance.cpp.o[0m
+[4.631s] [ 28%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteRadarSmartar.cpp.o[0m
+[4.746s] [ 29%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/BoardManager.cpp.o[0m
+[4.775s] [ 29%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/temperature/TemperatureSensorTMP102.cpp.o[0m
+[4.819s] [ 30%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/temperature/TemperatureSensorMCP98x43.cpp.o[0m
+[4.868s] [ 30%] [32mBuilding CXX object external/strata/library/components/CMakeFiles/components.dir/processing/ProcessingRadar.cpp.o[0m
+[4.923s] [ 30%] Built target components
+[4.933s] [ 30%] [32mBuilding CXX object external/strata/library/remote/CMakeFiles/remote.dir/RemoteVendorCommands.cpp.o[0m
+[5.100s] [ 30%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/NamedMemory.cpp.o[0m
+[5.200s] [ 30%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/Memory.cpp.o[0m
+[5.305s] [ 31%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeControl.cpp.o[0m
+[5.360s] [ 31%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeData.cpp.o[0m
+[5.391s] [ 32%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocol.cpp.o[0m
+[5.436s] [ 32%] Built target remote
+[5.443s] [ 32%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolI2c.cpp.o[0m
+[6.004s] [ 32%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolGpio.cpp.o[0m
+[6.016s] [ 33%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolSpi.cpp.o[0m
+[6.138s] [ 33%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolMemory.cpp.o[0m
+[6.234s] [ 34%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolFlash.cpp.o[0m
+[6.246s] [ 34%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeProtocolData.cpp.o[0m
+[6.413s] [ 34%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/BridgeWrapperBase.cpp.o[0m
+[6.540s] [ 35%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/bridge/VendorCommandsImpl.cpp.o[0m
+[6.617s] [ 35%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernet.cpp.o[0m
+[6.653s] [ 36%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetControl.cpp.o[0m
+[6.733s] [ 36%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetData.cpp.o[0m
+[6.794s] [ 36%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetTcp.cpp.o[0m
+[7.051s] [ 38%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BridgeEthernetUdp.cpp.o[0m
+[7.051s] [ 38%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/EnumeratorEthernet.cpp.o[0m
+[7.515s] [ 39%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetTcp.cpp.o[0m
+[7.533s] [ 39%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardEthernetUdp.cpp.o[0m
+[7.714s] [ 39%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/BoardDescriptorEthernet.cpp.o[0m
+[7.844s] [ 39%] Built target sdk_comport_obj
+[7.852s] [ 40%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketTcp.cpp.o[0m
+[7.901s] [ 40%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/ethernet/SocketUdp.cpp.o[0m
+[7.946s] [ 41%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/fpga/BridgeFpgaIrpli.cpp.o[0m
+[8.021s] [ 41%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/DebugFrame.cpp.o[0m
+[8.084s] [ 41%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/ErrorFrame.cpp.o[0m
+[8.374s] [ 42%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/Frame.cpp.o[0m
+[8.470s] [ 42%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameBase.cpp.o[0m
+[8.641s] [ 43%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameForwarder.cpp.o[0m
+[8.773s] [ 43%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FramePool.cpp.o[0m
+[8.835s] [ 43%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameQueue.cpp.o[0m
+[8.836s] [ 44%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/frames/FrameHelper.cpp.o[0m
+[8.974s] [ 44%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/macro/BoardInstanceMacro.cpp.o[0m
+[9.024s] [ 45%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/macro/BridgeMacro.cpp.o[0m
+[9.055s] [ 45%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/serial/SerialPort.cpp.o[0m
+[9.101s] [ 45%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/serial/BridgeSerial.cpp.o[0m
+[9.109s] [ 46%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/serial/BoardSerial.cpp.o[0m
+[9.284s] [ 46%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/BoardUvc.cpp.o[0m
+[9.623s] [ 47%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionCypress.cpp.o[0m
+[9.966s] [ 47%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtek.cpp.o[0m
+[10.052s] [ 47%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekFlash.cpp.o[0m
+[10.246s] [ 48%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/uvc/VendorExtensionRealtekI2c.cpp.o[0m
+[10.461s] [ 48%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/boards/Board.cpp.o[0m
+[10.469s] [ 50%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardGeneric.cpp.o[0m
+[10.507s] [ 50%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/boards/BoardRemote.cpp.o[0m
+[10.623s] [ 50%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/serial/SerialPortImpl.cpp.o[0m
+[10.650s] [ 51%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/serial/EnumeratorSerialImpl.cpp.o[0m
+[10.825s] [ 51%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/EnumeratorV4l2.cpp.o[0m
+[10.834s] [ 52%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/BridgeV4l2.cpp.o[0m
+[11.002s] [ 52%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/FrameV4l2.cpp.o[0m
+[11.103s] [ 52%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/Linux/video/FramePoolV4l2.cpp.o[0m
+[11.236s] [ 53%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketImpl.cpp.o[0m
+[11.363s] [ 53%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketTcpImpl.cpp.o[0m
+[11.833s] [ 54%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/ethernet/SocketUdpImpl.cpp.o[0m
+[11.922s] [ 54%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/serial/SerialPortImplBase.cpp.o[0m
+[12.000s] [ 54%] [32mBuilding CXX object external/strata/library/platform/CMakeFiles/platform.dir/impl/unix/serial/EnumeratorSerialImplBase.cpp.o[0m
+[13.428s] [ 54%] Built target platform
+[13.438s] [ 55%] [32mBuilding CXX object external/strata/library/CMakeFiles/strata_shared.dir/Dummy.cpp.o[0m
+[13.453s] [ 55%] [32m[1mLinking CXX shared library ../../../bin/lib/libstrata_shared.so[0m
+[13.875s] [ 55%] Built target strata_shared
+[13.886s] [ 58%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/LA.c.o[0m
+[13.887s] [ 58%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/default_settings.cpp.o[0m
+[13.887s] [ 58%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Error.c.o[0m
+[13.887s] [ 58%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/easy_mode.cpp.o[0m
+[13.887s] [ 58%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/data_acquisition.cpp.o[0m
+[13.887s] [ 58%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Cube.c.o[0m
+[13.887s] [ 58%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Complex.c.o[0m
+[13.887s] [ 58%] [32mBuilding CXX object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/List.cpp.o[0m
+[13.955s] [ 59%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Log.c.o[0m
+[13.960s] [ 60%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/ifxRadar_BGT60TRxx.cpp.o[0m
+[13.971s] [ 60%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/spi_programming.cpp.o[0m
+[13.995s] [ 60%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Math.c.o[0m
+[14.046s] [ 60%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/Driver/testing.cpp.o[0m
+[14.083s] [ 61%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Matrix.c.o[0m
+[14.135s] [ 63%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_CwController.cpp.o[0m
+[14.503s] [ 63%] [32mBuilding CXX object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Mda.cpp.o[0m
+[14.547s] [ 63%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Mem.c.o[0m
+[14.558s] [ 64%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Util.c.o[0m
+[14.592s] [ 64%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Uuid.c.o[0m
+[14.595s] [ 65%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Vector.c.o[0m
+[14.609s] [ 65%] [32mBuilding C object sdk/c/ifxBase/CMakeFiles/sdk_base.dir/Version.c.o[0m
+[14.653s] [ 65%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_DeviceTraits.cpp.o[0m
+[14.654s] [ 66%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_ErrorCodes.cpp.o[0m
+[14.742s] [ 66%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_HwTest.cpp.o[0m
+[15.022s] [ 66%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_ParameterExtractor.cpp.o[0m
+[15.080s] [ 67%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_RegisterSet.cpp.o[0m
+[15.094s] [ 67%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_SensorMeter.cpp.o[0m
+[15.344s] [ 67%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_base.so[0m
+[15.440s] [ 68%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_StrataUtilities.cpp.o[0m
+[15.512s] [ 68%] Built target sdk_base
+[15.517s] [ 68%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ifxAvian_Utilities.cpp.o[0m
+[15.862s] [ 68%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ports/ifxAvian_DummyPort.cpp.o[0m
+[15.879s] [ 69%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/2DMTI.c.o[0m
+[15.987s] [ 69%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/DBSCAN.c.o[0m
+[16.095s] [ 69%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/FFT.c.o[0m
+[16.141s] [ 70%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/ports/ifxAvian_StrataPort.cpp.o[0m
+[16.157s] [ 71%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/MTI.c.o[0m
+[16.160s] [ 71%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/OSCFAR.c.o[0m
+[16.216s] [ 71%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/ModelBGT60TR11D.cpp.o[0m
+[16.244s] [ 72%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/PreprocessedFFT.c.o[0m
+[16.268s] [ 72%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/Signal.c.o[0m
+[16.319s] [ 72%] [32mBuilding C object sdk/c/ifxAlgo/CMakeFiles/sdk_algo.dir/Window.c.o[0m
+[16.358s] [ 73%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/ModelBGT60TRxxC.cpp.o[0m
+[16.365s] [ 73%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/ModelBGT60TRxxD.cpp.o[0m
+[16.426s] [ 73%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/SequenceParameters.cpp.o[0m
+[16.465s] [ 75%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/timing_model/StateSequence.cpp.o[0m
+[16.520s] [ 76%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_algo.so[0m
+[16.631s] [ 76%] Built target sdk_algo
+[16.638s] [ 76%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/value_conversion/ifxAvian_RfConversion.cpp.o[0m
+[16.963s] [ 77%] [32mBuilding CXX object external/lib_avian/CMakeFiles/lib_avian.dir/src/value_conversion/ifxAvian_TimingConversion.cpp.o[0m
+[17.910s] [ 77%] [32m[1mLinking CXX shared library ../../bin/lib/liblib_avian.so[0m
+[18.035s] [ 77%] Built target lib_avian
+[18.045s] [ 77%] [32mBuilding CXX object sdk/c/ifxRadarDeviceCommon/CMakeFiles/sdk_radar_device_common.dir/RadarDeviceCommon.cpp.o[0m
+[18.692s] [ 77%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_radar_device_common.so[0m
+[18.791s] [ 77%] Built target sdk_radar_device_common
+[18.803s] [ 79%] [32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11Impl.cpp.o[0m
+[18.803s] [ 79%] [32mBuilding C object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcwTypes.c.o[0m
+[18.804s] [ 79%] [32mBuilding C object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/DeviceCwTypes.c.o[0m
+[18.804s] [ 79%] [32mBuilding CXX object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/DeviceCwBase.cpp.o[0m
+[18.804s] [ 79%] [32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimose.cpp.o[0m
+[18.804s] [ 79%] [32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11.cpp.o[0m
+[18.804s] [ 79%] [32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcw.cpp.o[0m
+[18.804s] [ 79%] [32mBuilding CXX object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/DeviceCw.cpp.o[0m
+[18.836s] [ 79%] [32mBuilding CXX object sdk/c/ifxCw/CMakeFiles/sdk_cw.dir/avian/DeviceCwAvian.cpp.o[0m
+[18.850s] [ 80%] [32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11Base.cpp.o[0m
+[19.515s] [ 80%] [32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11Dummy.cpp.o[0m
+[19.681s] [ 80%] [32mBuilding CXX object sdk/c/ifxLtr11/CMakeFiles/sdk_ltr11.dir/DeviceLtr11RegisterConfigurator.cpp.o[0m
+[19.896s] [ 81%] [32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcwBase.cpp.o[0m
+[19.994s] [ 81%] [32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/DeviceFmcwCWrapper.cpp.o[0m
+[20.339s] [ 82%] [32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/MetricsFmcw.cpp.o[0m
+[20.601s] [ 83%] [32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseImpl.cpp.o[0m
+[20.631s] [ 83%] [32mBuilding CXX object sdk/c/ifxFmcw/CMakeFiles/sdk_fmcw.dir/avian/DeviceFmcwAvian.cpp.o[0m
+[20.724s] [ 83%] [32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseBase.cpp.o[0m
+[20.879s] [ 83%] [32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseDummy.cpp.o[0m
+[20.983s] [ 84%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_ltr11.so[0m
+[21.190s] [ 84%] Built target sdk_ltr11
+[21.199s] [ 85%] [32mBuilding CXX object sdk/c/ifxMimose/CMakeFiles/sdk_mimose.dir/DeviceMimoseRegisterConfigurator.cpp.o[0m
+[21.911s] [ 86%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_cw.so[0m
+[22.100s] [ 86%] Built target sdk_cw
+[22.771s] [ 86%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_mimose.so[0m
+[22.926s] [ 86%] Built target sdk_mimose
+[23.144s] [ 86%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_fmcw.so[0m
+[23.293s] [ 86%] Built target sdk_fmcw
+[23.303s] [ 88%] [32mBuilding C object examples/c/BGT60TR13C/raw_data/CMakeFiles/BGT60TR13C_raw_data_fmcw.dir/raw_data.c.o[0m
+[23.303s] [ 88%] [32mBuilding CXX object sdk/c/ifxAvian/CMakeFiles/sdk_avian.dir/DeviceConfig.cpp.o[0m
+[23.303s] [ 88%] [32mBuilding CXX object sdk/c/ifxAvian/CMakeFiles/sdk_avian.dir/Metrics.cpp.o[0m
+[23.303s] [ 88%] [32mBuilding CXX object sdk/c/ifxAvian/CMakeFiles/sdk_avian.dir/DeviceControl.cpp.o[0m
+[23.352s] [ 89%] [32m[1mLinking CXX executable ../../../../bin/BGT60TR13C_raw_data_fmcw[0m
+[23.475s] [ 89%] Built target BGT60TR13C_raw_data_fmcw
+[24.241s] [ 89%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_avian.so[0m
+[24.321s] [ 89%] Built target sdk_avian
+[24.333s] [ 90%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/AngleMonopulse.c.o[0m
+[24.333s] [ 90%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/AngleCapon.c.o[0m
+[24.333s] [ 90%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/DBF.c.o[0m
+[24.333s] [ 91%] [32mBuilding CXX object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/DeInterleaver.cpp.o[0m
+[24.333s] [ 91%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/PeakSearch.c.o[0m
+[24.334s] [ 92%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/RangeAngleImage.c.o[0m
+[24.334s] [ 92%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/RangeDopplerMap.c.o[0m
+[24.334s] [ 92%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/RangeSpectrum.c.o[0m
+[24.390s] [ 93%] [32mBuilding CXX object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/SpectrumAxis.cpp.o[0m
+[24.401s] [ 93%] [32mBuilding C object sdk/c/ifxRadar/CMakeFiles/sdk_radar.dir/DopplerSpectrogram.c.o[0m
+[24.794s] [ 94%] [32m[1mLinking CXX shared library ../../../bin/lib/libsdk_radar.so[0m
+[24.885s] [ 94%] Built target sdk_radar
+[24.895s] [ 95%] [32mBuilding C object examples/c/common/CMakeFiles/examples_common.dir/common.c.o[0m
+[24.895s] [ 95%] [32mBuilding C object examples/c/common/CMakeFiles/examples_common.dir/time_formatter.c.o[0m
+[24.895s] [ 96%] [32mBuilding CXX object examples/c/common/CMakeFiles/examples_common.dir/json.cpp.o[0m
+[24.895s] [ 96%] [32mBuilding C object examples/c/common/CMakeFiles/examples_common.dir/util.c.o[0m
+[28.327s] [ 96%] [32m[1mLinking CXX static library ../../../bin/lib/libexamples_common.a[0m
+[28.407s] [ 96%] Built target examples_common
+[28.417s] [ 97%] [32mBuilding C object examples/c/BGT60TR13C/continuous_wave/CMakeFiles/BGT60TR13C_continuous_wave.dir/continuous_wave.c.o[0m
+[28.418s] [ 97%] [32mBuilding C object examples/c/BGT60TR13C/motion_angle/CMakeFiles/BGT60TR13C_motion_angle.dir/motion_angle.c.o[0m
+[28.418s] [ 97%] [32mBuilding C object examples/c/BGT60TR13C/range_doppler_map/CMakeFiles/BGT60TR13C_range_doppler_map.dir/range_doppler_map.c.o[0m
+[28.418s] [ 98%] [32mBuilding C object examples/c/BGT60TR13C/presence_detection/CMakeFiles/BGT60TR13C_presence_detection.dir/presence_detection.c.o[0m
+[28.421s] [ 98%] [32mBuilding C object examples/c/BGT60TR13C/segmentation/CMakeFiles/BGT60TR13C_segmentation.dir/segmentation.c.o[0m
+[28.453s] [ 98%] [32m[1mLinking CXX executable ../../../../bin/BGT60TR13C_presence_detection[0m
+[28.460s] [100%] [32m[1mLinking CXX executable ../../../../bin/BGT60TR13C_range_doppler_map[0m
+[28.464s] [100%] [32m[1mLinking CXX executable ../../../../bin/BGT60TR13C_segmentation[0m
+[28.474s] [100%] [32m[1mLinking CXX executable ../../../../bin/BGT60TR13C_motion_angle[0m
+[28.486s] [100%] [32m[1mLinking CXX executable ../../../../bin/BGT60TR13C_continuous_wave[0m
+[28.723s] [100%] Built target BGT60TR13C_range_doppler_map
+[28.743s] [100%] Built target BGT60TR13C_motion_angle
+[28.765s] [100%] Built target BGT60TR13C_continuous_wave
+[28.798s] [100%] Built target BGT60TR13C_presence_detection
+[28.803s] [100%] Built target BGT60TR13C_segmentation
+[28.810s] Invoked command in '/home/juhun/capstone_ws/build/rdk' returned '0': /usr/bin/cmake --build /home/juhun/capstone_ws/build/rdk -- -j8 -l8
+[28.816s] Invoking command in '/home/juhun/capstone_ws/build/rdk': /usr/bin/cmake --install /home/juhun/capstone_ws/build/rdk
+[28.819s] -- Install configuration: ""
+[28.823s] Invoked command in '/home/juhun/capstone_ws/build/rdk' returned '0': /usr/bin/cmake --install /home/juhun/capstone_ws/build/rdk
