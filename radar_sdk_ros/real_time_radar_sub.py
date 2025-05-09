@@ -110,11 +110,10 @@ def process_and_show():
         data_spec /= np.max(np.abs(data_spec)) + 1e-10
         data_spec = 20 * np.log10(data_spec + 1e-10)
         data_spec = (data_spec + 100) * 0.3 + 100
-        velocity_axis = f * 3e8 / (2 * fc)
-
+        
         im.set_data(data_spec)
-        im.set_extent([t[0], t[-1], velocity_axis[0], velocity_axis[-1]])
-        im.set_clim(np.min(data_spec), np.max(data_spec))
+        im.set_extent([t[0], t[-1], -3, 3])
+        im.set_clim(100, 130)
         fig.canvas.draw()
         fig.canvas.flush_events()
 
@@ -143,4 +142,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
